@@ -1,0 +1,8865 @@
+[
+ {
+  "day": 1,
+  "week": 1,
+  "title": "Shoulder (Push Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Dumbbell Press",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 140,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-dumbbell-press"
+   },
+   {
+    "name": "Standing Barbell Press Behind Neck",
+    "muscle": "Shoulders",
+    "equipment": "Barbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-standing-barbell-press-behind-neck"
+   },
+   {
+    "name": "Reverse Shoulder Press",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "(Perform on machine shoulder press) FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 150,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-shoulder-press"
+   },
+   {
+    "name": "Barbell Shrug",
+    "muscle": "Traps",
+    "equipment": "Barbell",
+    "tip": "(Perform with a trap bar)",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-barbell-shrug"
+   },
+   {
+    "name": "Triceps Pushdown - Rope Attachment",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-triceps-pushdown-rope-attachment"
+   },
+   {
+    "name": "EZ-Bar Skullcrusher",
+    "muscle": "Triceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": "(Perform on a 45 degree incline) for the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-ez-bar-skullcrusher"
+   },
+   {
+    "name": "Machine Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-triceps-extension"
+   },
+   {
+    "name": "Decline Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-crunch"
+   }
+  ]
+ },
+ {
+  "day": 2,
+  "week": 1,
+  "title": "Back (Width Emphasis)",
+  "exercises": [
+   {
+    "name": "Lat Pullover Machine",
+    "muscle": "Lats",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "15 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lat-pullover-machine"
+   },
+   {
+    "name": "V-Bar Pulldown",
+    "muscle": "Lats",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-v-bar-pulldown"
+   },
+   {
+    "name": "Weighted Pull Ups",
+    "muscle": "Lats",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-weighted-pull-ups"
+   },
+   {
+    "name": "Bent Over Two-Dumbbell Row",
+    "muscle": "Middle Back",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-bent-over-two-dumbbell-row"
+   },
+   {
+    "name": "Seated Cable Rows",
+    "muscle": "Middle Back",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-cable-rows"
+   },
+   {
+    "name": "Oblique Crunches",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-oblique-crunches"
+   }
+  ]
+ },
+ {
+  "day": 3,
+  "week": 1,
+  "title": "Chest (Upper) & Biceps",
+  "exercises": [
+   {
+    "name": "Barbell Incline Bench Press - Medium Grip",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-barbell-incline-bench-press-medium-grip"
+   },
+   {
+    "name": "Incline Dumbbell Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-incline-dumbbell-press"
+   },
+   {
+    "name": "Incline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-incline-dumbbell-flyes"
+   },
+   {
+    "name": "Leverage Incline Chest Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leverage-incline-chest-press"
+   },
+   {
+    "name": "Dumbbell Alternate Bicep Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-alternate-bicep-curl"
+   },
+   {
+    "name": "Cable Concentration Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Stack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ]
+   },
+   {
+    "name": "Machine Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-preacher-curl"
+   },
+   {
+    "name": "Ab Crunch Machine",
+    "muscle": "Abdominals",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-ab-crunch-machine"
+   }
+  ]
+ },
+ {
+  "day": 4,
+  "week": 1,
+  "title": "Shoulder (Pull Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Side Lateral Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-side-lateral-raise"
+   },
+   {
+    "name": "Standing Low-Pulley Deltoid Raise",
+    "muscle": "Shoulders",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-low-pulley-deltoid-raise"
+   },
+   {
+    "name": "Seated Bent-Over Rear Delt Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-bent-over-rear-delt-raise"
+   },
+   {
+    "name": "Reverse Machine Flyes",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-machine-flyes"
+   },
+   {
+    "name": "Decline EZ Bar Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-ez-bar-triceps-extension"
+   },
+   {
+    "name": "Seated Triceps Press",
+    "muscle": "Triceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-triceps-press"
+   },
+   {
+    "name": "Kneeling Cable Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-kneeling-cable-triceps-extension"
+   },
+   {
+    "name": "Knee/Hip Raise on Parallel Bars",
+    "muscle": "Abdominals",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-knee-hip-raise-on-parallel-bars"
+   }
+  ]
+ },
+ {
+  "day": 5,
+  "week": 1,
+  "title": "Chest (Mid/Lower) & Biceps",
+  "exercises": [
+   {
+    "name": "Decline Barbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-barbell-bench-press"
+   },
+   {
+    "name": "Dumbbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-bench-press"
+   },
+   {
+    "name": "Decline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-decline-dumbbell-flyes"
+   },
+   {
+    "name": "Machine Bench Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-bench-press"
+   },
+   {
+    "name": "EZ-Bar Curl",
+    "muscle": "Biceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-ez-bar-curl"
+   },
+   {
+    "name": "One Arm Dumbbell Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-one-arm-dumbbell-preacher-curl"
+   },
+   {
+    "name": "Cable Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-preacher-curl"
+   },
+   {
+    "name": "Side Bridge",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-side-bridge"
+   }
+  ]
+ },
+ {
+  "day": 6,
+  "week": 1,
+  "title": "Legs (Quad Emphasis)",
+  "exercises": [
+   {
+    "name": "Leg Press",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "2 to 4 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leg-press"
+   },
+   {
+    "name": "Smith Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-smith-machine-squat"
+   },
+   {
+    "name": "Leg Extensions",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-leg-extensions"
+   },
+   {
+    "name": "Lying Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-lying-machine-squat"
+   },
+   {
+    "name": "Seated Leg Curl",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-leg-curl"
+   },
+   {
+    "name": "Lying Leg Curls",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lying-leg-curls"
+   },
+   {
+    "name": "Standing Calf Raises",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-calf-raises"
+   },
+   {
+    "name": "Seated Calf Raise",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-calf-raise"
+   },
+   {
+    "name": "Cable Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-crunch"
+   }
+  ]
+ },
+ {
+  "day": 8,
+  "week": 2,
+  "title": "Shoulder (Push Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Dumbbell Press",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 140,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-dumbbell-press"
+   },
+   {
+    "name": "Standing Barbell Press Behind Neck",
+    "muscle": "Shoulders",
+    "equipment": "Barbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-standing-barbell-press-behind-neck"
+   },
+   {
+    "name": "Reverse Shoulder Press",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "(Perform on machine shoulder press) FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 150,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-shoulder-press"
+   },
+   {
+    "name": "Barbell Shrug",
+    "muscle": "Traps",
+    "equipment": "Barbell",
+    "tip": "(Perform with a trap bar)",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-barbell-shrug"
+   },
+   {
+    "name": "Triceps Pushdown - Rope Attachment",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-triceps-pushdown-rope-attachment"
+   },
+   {
+    "name": "EZ-Bar Skullcrusher",
+    "muscle": "Triceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": "(Perform on a 45 degree incline) for the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-ez-bar-skullcrusher"
+   },
+   {
+    "name": "Machine Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-triceps-extension"
+   },
+   {
+    "name": "Decline Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-crunch"
+   }
+  ]
+ },
+ {
+  "day": 9,
+  "week": 2,
+  "title": "Back (Thickness Emphasis)",
+  "exercises": [
+   {
+    "name": "T-Bar Row with Handle",
+    "muscle": "Middle Back",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "2 to 4 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-t-bar-row-with-handle"
+   },
+   {
+    "name": "One-Arm Dumbbell Row",
+    "muscle": "Middle Back",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-one-arm-dumbbell-row"
+   },
+   {
+    "name": "Seated Cable Rows",
+    "muscle": "Middle Back",
+    "equipment": "Cable",
+    "tip": "(Perform with a wide grip)",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-cable-rows"
+   },
+   {
+    "name": "Bent-Arm Dumbbell Pullover",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-bent-arm-dumbbell-pullover"
+   },
+   {
+    "name": "Wide-Grip Lat Pulldown",
+    "muscle": "Lats",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-wide-grip-lat-pulldown"
+   },
+   {
+    "name": "Oblique Crunches",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-oblique-crunches"
+   }
+  ]
+ },
+ {
+  "day": 10,
+  "week": 2,
+  "title": "Chest (Upper) & Biceps",
+  "exercises": [
+   {
+    "name": "Barbell Incline Bench Press - Medium Grip",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-barbell-incline-bench-press-medium-grip"
+   },
+   {
+    "name": "Incline Dumbbell Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-incline-dumbbell-press"
+   },
+   {
+    "name": "Incline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-incline-dumbbell-flyes"
+   },
+   {
+    "name": "Leverage Incline Chest Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leverage-incline-chest-press"
+   },
+   {
+    "name": "Dumbbell Alternate Bicep Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-alternate-bicep-curl"
+   },
+   {
+    "name": "Cable Concentration Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Stack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ]
+   },
+   {
+    "name": "Machine Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-preacher-curl"
+   },
+   {
+    "name": "Ab Crunch Machine",
+    "muscle": "Abdominals",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-ab-crunch-machine"
+   }
+  ]
+ },
+ {
+  "day": 11,
+  "week": 2,
+  "title": "Shoulder (Pull Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Side Lateral Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-side-lateral-raise"
+   },
+   {
+    "name": "Standing Low-Pulley Deltoid Raise",
+    "muscle": "Shoulders",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-low-pulley-deltoid-raise"
+   },
+   {
+    "name": "Seated Bent-Over Rear Delt Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-bent-over-rear-delt-raise"
+   },
+   {
+    "name": "Reverse Machine Flyes",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-machine-flyes"
+   },
+   {
+    "name": "Decline EZ Bar Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-ez-bar-triceps-extension"
+   },
+   {
+    "name": "Seated Triceps Press",
+    "muscle": "Triceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-triceps-press"
+   },
+   {
+    "name": "Kneeling Cable Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-kneeling-cable-triceps-extension"
+   },
+   {
+    "name": "Knee/Hip Raise on Parallel Bars",
+    "muscle": "Abdominals",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-knee-hip-raise-on-parallel-bars"
+   }
+  ]
+ },
+ {
+  "day": 12,
+  "week": 2,
+  "title": "Chest (Mid/Lower) & Biceps",
+  "exercises": [
+   {
+    "name": "Decline Barbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-barbell-bench-press"
+   },
+   {
+    "name": "Dumbbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-bench-press"
+   },
+   {
+    "name": "Decline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-decline-dumbbell-flyes"
+   },
+   {
+    "name": "Machine Bench Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-bench-press"
+   },
+   {
+    "name": "EZ-Bar Curl",
+    "muscle": "Biceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-ez-bar-curl"
+   },
+   {
+    "name": "One Arm Dumbbell Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-one-arm-dumbbell-preacher-curl"
+   },
+   {
+    "name": "Cable Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-preacher-curl"
+   },
+   {
+    "name": "Side Bridge",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-side-bridge"
+   }
+  ]
+ },
+ {
+  "day": 13,
+  "week": 2,
+  "title": "Legs (Hamstring Emphasis)",
+  "exercises": [
+   {
+    "name": "Lying Leg Curls",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "15 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lying-leg-curls"
+   },
+   {
+    "name": "Stiff-Legged Barbell Deadlift",
+    "muscle": "Hamstrings",
+    "equipment": "Barbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-stiff-legged-barbell-deadlift"
+   },
+   {
+    "name": "Seated Leg Curl",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-leg-curl"
+   },
+   {
+    "name": "Front Barbell Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-front-barbell-squat"
+   },
+   {
+    "name": "Lying Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lying-machine-squat"
+   },
+   {
+    "name": "Donkey Calf Raise Machine",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Calf Press on the Leg Press Machine",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-calf-press-on-the-leg-press-machine"
+   },
+   {
+    "name": "Cable Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-crunch"
+   }
+  ]
+ },
+ {
+  "day": 15,
+  "week": 3,
+  "title": "Shoulder (Push Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Dumbbell Press",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 140,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-dumbbell-press"
+   },
+   {
+    "name": "Standing Barbell Press Behind Neck",
+    "muscle": "Shoulders",
+    "equipment": "Barbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-standing-barbell-press-behind-neck"
+   },
+   {
+    "name": "Reverse Shoulder Press",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "(Perform on machine shoulder press) FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 150,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-shoulder-press"
+   },
+   {
+    "name": "Barbell Shrug",
+    "muscle": "Traps",
+    "equipment": "Barbell",
+    "tip": "(Perform with a trap bar)",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-barbell-shrug"
+   },
+   {
+    "name": "Triceps Pushdown - Rope Attachment",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-triceps-pushdown-rope-attachment"
+   },
+   {
+    "name": "EZ-Bar Skullcrusher",
+    "muscle": "Triceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": "(Perform on a 45 degree incline) for the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-ez-bar-skullcrusher"
+   },
+   {
+    "name": "Machine Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-triceps-extension"
+   },
+   {
+    "name": "Decline Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-crunch"
+   }
+  ]
+ },
+ {
+  "day": 16,
+  "week": 3,
+  "title": "Back (Width Emphasis)",
+  "exercises": [
+   {
+    "name": "Lat Pullover Machine",
+    "muscle": "Lats",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "15 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lat-pullover-machine"
+   },
+   {
+    "name": "V-Bar Pulldown",
+    "muscle": "Lats",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-v-bar-pulldown"
+   },
+   {
+    "name": "Weighted Pull Ups",
+    "muscle": "Lats",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-weighted-pull-ups"
+   },
+   {
+    "name": "Bent Over Two-Dumbbell Row",
+    "muscle": "Middle Back",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-bent-over-two-dumbbell-row"
+   },
+   {
+    "name": "Seated Cable Rows",
+    "muscle": "Middle Back",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-cable-rows"
+   },
+   {
+    "name": "Oblique Crunches",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-oblique-crunches"
+   }
+  ]
+ },
+ {
+  "day": 17,
+  "week": 3,
+  "title": "Chest (Upper) & Biceps",
+  "exercises": [
+   {
+    "name": "Barbell Incline Bench Press - Medium Grip",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-barbell-incline-bench-press-medium-grip"
+   },
+   {
+    "name": "Incline Dumbbell Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-incline-dumbbell-press"
+   },
+   {
+    "name": "Incline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-incline-dumbbell-flyes"
+   },
+   {
+    "name": "Leverage Incline Chest Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leverage-incline-chest-press"
+   },
+   {
+    "name": "Dumbbell Alternate Bicep Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-alternate-bicep-curl"
+   },
+   {
+    "name": "Cable Concentration Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Stack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ]
+   },
+   {
+    "name": "Machine Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-preacher-curl"
+   },
+   {
+    "name": "Ab Crunch Machine",
+    "muscle": "Abdominals",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-ab-crunch-machine"
+   }
+  ]
+ },
+ {
+  "day": 18,
+  "week": 3,
+  "title": "Shoulder (Pull Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Side Lateral Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-side-lateral-raise"
+   },
+   {
+    "name": "Standing Low-Pulley Deltoid Raise",
+    "muscle": "Shoulders",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-low-pulley-deltoid-raise"
+   },
+   {
+    "name": "Seated Bent-Over Rear Delt Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-bent-over-rear-delt-raise"
+   },
+   {
+    "name": "Reverse Machine Flyes",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-machine-flyes"
+   },
+   {
+    "name": "Decline EZ Bar Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-ez-bar-triceps-extension"
+   },
+   {
+    "name": "Seated Triceps Press",
+    "muscle": "Triceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-triceps-press"
+   },
+   {
+    "name": "Kneeling Cable Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-kneeling-cable-triceps-extension"
+   },
+   {
+    "name": "Knee/Hip Raise on Parallel Bars",
+    "muscle": "Abdominals",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-knee-hip-raise-on-parallel-bars"
+   }
+  ]
+ },
+ {
+  "day": 19,
+  "week": 3,
+  "title": "Chest (Mid/Lower) & Biceps",
+  "exercises": [
+   {
+    "name": "Decline Barbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-barbell-bench-press"
+   },
+   {
+    "name": "Dumbbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-bench-press"
+   },
+   {
+    "name": "Decline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-decline-dumbbell-flyes"
+   },
+   {
+    "name": "Machine Bench Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-bench-press"
+   },
+   {
+    "name": "EZ-Bar Curl",
+    "muscle": "Biceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-ez-bar-curl"
+   },
+   {
+    "name": "One Arm Dumbbell Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-one-arm-dumbbell-preacher-curl"
+   },
+   {
+    "name": "Cable Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-preacher-curl"
+   },
+   {
+    "name": "Side Bridge",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-side-bridge"
+   }
+  ]
+ },
+ {
+  "day": 20,
+  "week": 3,
+  "title": "Legs (Quad Emphasis)",
+  "exercises": [
+   {
+    "name": "Leg Press",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "2 to 4 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leg-press"
+   },
+   {
+    "name": "Smith Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-smith-machine-squat"
+   },
+   {
+    "name": "Leg Extensions",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-leg-extensions"
+   },
+   {
+    "name": "Lying Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-lying-machine-squat"
+   },
+   {
+    "name": "Seated Leg Curl",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-leg-curl"
+   },
+   {
+    "name": "Lying Leg Curls",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lying-leg-curls"
+   },
+   {
+    "name": "Standing Calf Raises",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-calf-raises"
+   },
+   {
+    "name": "Seated Calf Raise",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-calf-raise"
+   },
+   {
+    "name": "Cable Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-crunch"
+   }
+  ]
+ },
+ {
+  "day": 22,
+  "week": 4,
+  "title": "Shoulder (Push Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Dumbbell Press",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 140,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-dumbbell-press"
+   },
+   {
+    "name": "Standing Barbell Press Behind Neck",
+    "muscle": "Shoulders",
+    "equipment": "Barbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-standing-barbell-press-behind-neck"
+   },
+   {
+    "name": "Reverse Shoulder Press",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "(Perform on machine shoulder press) FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 150,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-shoulder-press"
+   },
+   {
+    "name": "Barbell Shrug",
+    "muscle": "Traps",
+    "equipment": "Barbell",
+    "tip": "(Perform with a trap bar)",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-barbell-shrug"
+   },
+   {
+    "name": "Triceps Pushdown - Rope Attachment",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-triceps-pushdown-rope-attachment"
+   },
+   {
+    "name": "EZ-Bar Skullcrusher",
+    "muscle": "Triceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": "(Perform on a 45 degree incline) for the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-ez-bar-skullcrusher"
+   },
+   {
+    "name": "Machine Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-triceps-extension"
+   },
+   {
+    "name": "Decline Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-crunch"
+   }
+  ]
+ },
+ {
+  "day": 23,
+  "week": 4,
+  "title": "Back (Width Emphasis)",
+  "exercises": [
+   {
+    "name": "Lat Pullover Machine",
+    "muscle": "Lats",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "15 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lat-pullover-machine"
+   },
+   {
+    "name": "V-Bar Pulldown",
+    "muscle": "Lats",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-v-bar-pulldown"
+   },
+   {
+    "name": "Weighted Pull Ups",
+    "muscle": "Lats",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-weighted-pull-ups"
+   },
+   {
+    "name": "Bent Over Two-Dumbbell Row",
+    "muscle": "Middle Back",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-bent-over-two-dumbbell-row"
+   },
+   {
+    "name": "Seated Cable Rows",
+    "muscle": "Middle Back",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-cable-rows"
+   },
+   {
+    "name": "Oblique Crunches",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-oblique-crunches"
+   }
+  ]
+ },
+ {
+  "day": 24,
+  "week": 4,
+  "title": "Chest (Upper) & Biceps",
+  "exercises": [
+   {
+    "name": "Barbell Incline Bench Press - Medium Grip",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-barbell-incline-bench-press-medium-grip"
+   },
+   {
+    "name": "Incline Dumbbell Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-incline-dumbbell-press"
+   },
+   {
+    "name": "Incline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-incline-dumbbell-flyes"
+   },
+   {
+    "name": "Leverage Incline Chest Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leverage-incline-chest-press"
+   },
+   {
+    "name": "Dumbbell Alternate Bicep Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-alternate-bicep-curl"
+   },
+   {
+    "name": "Cable Concentration Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Stack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ]
+   },
+   {
+    "name": "Machine Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-preacher-curl"
+   },
+   {
+    "name": "Ab Crunch Machine",
+    "muscle": "Abdominals",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-ab-crunch-machine"
+   }
+  ]
+ },
+ {
+  "day": 25,
+  "week": 4,
+  "title": "Shoulder (Pull Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Side Lateral Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-side-lateral-raise"
+   },
+   {
+    "name": "Standing Low-Pulley Deltoid Raise",
+    "muscle": "Shoulders",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-low-pulley-deltoid-raise"
+   },
+   {
+    "name": "Seated Bent-Over Rear Delt Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-bent-over-rear-delt-raise"
+   },
+   {
+    "name": "Reverse Machine Flyes",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-machine-flyes"
+   },
+   {
+    "name": "Decline EZ Bar Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-ez-bar-triceps-extension"
+   },
+   {
+    "name": "Seated Triceps Press",
+    "muscle": "Triceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-triceps-press"
+   },
+   {
+    "name": "Kneeling Cable Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-kneeling-cable-triceps-extension"
+   },
+   {
+    "name": "Knee/Hip Raise on Parallel Bars",
+    "muscle": "Abdominals",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-knee-hip-raise-on-parallel-bars"
+   }
+  ]
+ },
+ {
+  "day": 26,
+  "week": 4,
+  "title": "Chest (Mid/Lower) & Biceps",
+  "exercises": [
+   {
+    "name": "Decline Barbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-barbell-bench-press"
+   },
+   {
+    "name": "Dumbbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-bench-press"
+   },
+   {
+    "name": "Decline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-decline-dumbbell-flyes"
+   },
+   {
+    "name": "Machine Bench Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-bench-press"
+   },
+   {
+    "name": "EZ-Bar Curl",
+    "muscle": "Biceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-ez-bar-curl"
+   },
+   {
+    "name": "One Arm Dumbbell Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-one-arm-dumbbell-preacher-curl"
+   },
+   {
+    "name": "Cable Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-preacher-curl"
+   },
+   {
+    "name": "Side Bridge",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-side-bridge"
+   }
+  ]
+ },
+ {
+  "day": 27,
+  "week": 4,
+  "title": "Legs (Quad Emphasis)",
+  "exercises": [
+   {
+    "name": "Leg Press",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "2 to 4 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leg-press"
+   },
+   {
+    "name": "Smith Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-smith-machine-squat"
+   },
+   {
+    "name": "Leg Extensions",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-leg-extensions"
+   },
+   {
+    "name": "Lying Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-lying-machine-squat"
+   },
+   {
+    "name": "Seated Leg Curl",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-leg-curl"
+   },
+   {
+    "name": "Lying Leg Curls",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lying-leg-curls"
+   },
+   {
+    "name": "Standing Calf Raises",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-calf-raises"
+   },
+   {
+    "name": "Seated Calf Raise",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-calf-raise"
+   },
+   {
+    "name": "Cable Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-crunch"
+   }
+  ]
+ },
+ {
+  "day": 29,
+  "week": 5,
+  "title": "Shoulder (Push Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Dumbbell Press",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 140,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-dumbbell-press"
+   },
+   {
+    "name": "Standing Barbell Press Behind Neck",
+    "muscle": "Shoulders",
+    "equipment": "Barbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-standing-barbell-press-behind-neck"
+   },
+   {
+    "name": "Reverse Shoulder Press",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "(Perform on machine shoulder press) FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 150,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-shoulder-press"
+   },
+   {
+    "name": "Barbell Shrug",
+    "muscle": "Traps",
+    "equipment": "Barbell",
+    "tip": "(Perform with a trap bar)",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-barbell-shrug"
+   },
+   {
+    "name": "Triceps Pushdown - Rope Attachment",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-triceps-pushdown-rope-attachment"
+   },
+   {
+    "name": "EZ-Bar Skullcrusher",
+    "muscle": "Triceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": "(Perform on a 45 degree incline) for the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-ez-bar-skullcrusher"
+   },
+   {
+    "name": "Machine Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-triceps-extension"
+   },
+   {
+    "name": "Decline Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-crunch"
+   }
+  ]
+ },
+ {
+  "day": 30,
+  "week": 5,
+  "title": "Back (Width Emphasis)",
+  "exercises": [
+   {
+    "name": "Lat Pullover Machine",
+    "muscle": "Lats",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "15 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lat-pullover-machine"
+   },
+   {
+    "name": "V-Bar Pulldown",
+    "muscle": "Lats",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": null
+       },
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-v-bar-pulldown"
+   },
+   {
+    "name": "Weighted Pull Ups",
+    "muscle": "Lats",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-weighted-pull-ups"
+   },
+   {
+    "name": "Bent Over Two-Dumbbell Row",
+    "muscle": "Middle Back",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-bent-over-two-dumbbell-row"
+   },
+   {
+    "name": "Seated Cable Rows",
+    "muscle": "Middle Back",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-cable-rows"
+   },
+   {
+    "name": "Oblique Crunches",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-oblique-crunches"
+   }
+  ]
+ },
+ {
+  "day": 31,
+  "week": 5,
+  "title": "Chest (Upper) & Biceps",
+  "exercises": [
+   {
+    "name": "Barbell Incline Bench Press - Medium Grip",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-barbell-incline-bench-press-medium-grip"
+   },
+   {
+    "name": "Incline Dumbbell Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-incline-dumbbell-press"
+   },
+   {
+    "name": "Incline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-incline-dumbbell-flyes"
+   },
+   {
+    "name": "Leverage Incline Chest Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leverage-incline-chest-press"
+   },
+   {
+    "name": "Dumbbell Alternate Bicep Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-alternate-bicep-curl"
+   },
+   {
+    "name": "Cable Concentration Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Stack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ]
+   },
+   {
+    "name": "Machine Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-preacher-curl"
+   },
+   {
+    "name": "Ab Crunch Machine",
+    "muscle": "Abdominals",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-ab-crunch-machine"
+   }
+  ]
+ },
+ {
+  "day": 32,
+  "week": 5,
+  "title": "Shoulder (Pull Emphasis) & Triceps",
+  "exercises": [
+   {
+    "name": "Seated Side Lateral Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-side-lateral-raise"
+   },
+   {
+    "name": "Standing Low-Pulley Deltoid Raise",
+    "muscle": "Shoulders",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-low-pulley-deltoid-raise"
+   },
+   {
+    "name": "Seated Bent-Over Rear Delt Raise",
+    "muscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-bent-over-rear-delt-raise"
+   },
+   {
+    "name": "Reverse Machine Flyes",
+    "muscle": "Shoulders",
+    "equipment": "Machine",
+    "tip": "FST-7 style",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-reverse-machine-flyes"
+   },
+   {
+    "name": "Decline EZ Bar Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-ez-bar-triceps-extension"
+   },
+   {
+    "name": "Seated Triceps Press",
+    "muscle": "Triceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-seated-triceps-press"
+   },
+   {
+    "name": "Kneeling Cable Triceps Extension",
+    "muscle": "Triceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-kneeling-cable-triceps-extension"
+   },
+   {
+    "name": "Knee/Hip Raise on Parallel Bars",
+    "muscle": "Abdominals",
+    "equipment": "Other",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-knee-hip-raise-on-parallel-bars"
+   }
+  ]
+ },
+ {
+  "day": 33,
+  "week": 5,
+  "title": "Chest (Mid/Lower) & Biceps",
+  "exercises": [
+   {
+    "name": "Decline Barbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Barbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "1 to 3 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-decline-barbell-bench-press"
+   },
+   {
+    "name": "Dumbbell Bench Press",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-dumbbell-bench-press"
+   },
+   {
+    "name": "Decline Dumbbell Flyes",
+    "muscle": "Chest",
+    "equipment": "Dumbbell",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-decline-dumbbell-flyes"
+   },
+   {
+    "name": "Machine Bench Press",
+    "muscle": "Chest",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-machine-bench-press"
+   },
+   {
+    "name": "EZ-Bar Curl",
+    "muscle": "Biceps",
+    "equipment": "E-Z Curl Bar",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "4 to 6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-ez-bar-curl"
+   },
+   {
+    "name": "One Arm Dumbbell Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Dumbbell",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Run the Rack) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-one-arm-dumbbell-preacher-curl"
+   },
+   {
+    "name": "Cable Preacher Curl",
+    "muscle": "Biceps",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-preacher-curl"
+   },
+   {
+    "name": "Side Bridge",
+    "muscle": "Abdominals",
+    "equipment": "Body Only",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "45 sec",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-side-bridge"
+   }
+  ]
+ },
+ {
+  "day": 34,
+  "week": 5,
+  "title": "Legs (Quad Emphasis)",
+  "exercises": [
+   {
+    "name": "Leg Press",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "2 to 4 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "8 reps",
+      "rest": 20,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "To failure",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-leg-press"
+   },
+   {
+    "name": "Smith Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": "For the first set choose a light/moderate weight. For the second set, choose a heavy weight to perform for 6-8 reps or until failure. (Strip Method) Immediately after your last working set, reduce the weight and lift another 5-10 reps. Then with no rest, keep repeating the process until you hit failure.",
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "6 to 8 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-smith-machine-squat"
+   },
+   {
+    "name": "Leg Extensions",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-leg-extensions"
+   },
+   {
+    "name": "Lying Machine Squat",
+    "muscle": "Quadriceps",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-lying-machine-squat"
+   },
+   {
+    "name": "Seated Leg Curl",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 60,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-leg-curl"
+   },
+   {
+    "name": "Lying Leg Curls",
+    "muscle": "Hamstrings",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 30,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "10 reps",
+      "rest": 120,
+      "drops": []
+     }
+    ],
+    "image": "ex-lying-leg-curls"
+   },
+   {
+    "name": "Standing Calf Raises",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-standing-calf-raises"
+   },
+   {
+    "name": "Seated Calf Raise",
+    "muscle": "Calves",
+    "equipment": "Machine",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "10 to 12 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Drop",
+      "target": "6 to 8 reps",
+      "rest": null,
+      "drops": [
+       {
+        "target": "To failure",
+        "rest": 120
+       }
+      ]
+     }
+    ],
+    "image": "ex-seated-calf-raise"
+   },
+   {
+    "name": "Cable Crunch",
+    "muscle": "Abdominals",
+    "equipment": "Cable",
+    "tip": null,
+    "sets": [
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     },
+     {
+      "kind": "Standard",
+      "target": "25 reps",
+      "rest": 45,
+      "drops": []
+     }
+    ],
+    "image": "ex-cable-crunch"
+   }
+  ]
+ }
+]
