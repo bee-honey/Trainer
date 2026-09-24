@@ -6,6 +6,7 @@ import UserNotifications
 struct TrainerApp: App {
     @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @State private var restTimer = RestTimer()
+    @State private var health = HealthManager()
 
     init() {
         // First launch: the program starts today (changeable in Settings).
@@ -19,8 +20,9 @@ struct TrainerApp: App {
         WindowGroup {
             RootView()
                 .environment(restTimer)
+                .environment(health)
         }
-        .modelContainer(for: [SetLog.self, ExerciseTiming.self])
+        .modelContainer(for: [SetLog.self, ExerciseTiming.self, BodyEntry.self])
     }
 }
 
@@ -41,14 +43,31 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
 }
 
 struct RootView: View {
+    @State private var tab = RootView.initialTab
+
     var body: some View {
-        TabView {
+        TabView(selection: $tab) {
             TodayView()
                 .tabItem { Label("Today", systemImage: "dumbbell.fill") }
+                .tag(0)
             CalendarScreen()
                 .tabItem { Label("Calendar", systemImage: "calendar") }
+                .tag(1)
+            BodyView()
+                .tabItem { Label("Body", systemImage: "figure") }
+                .tag(2)
             SettingsView()
                 .tabItem { Label("Settings", systemImage: "gearshape") }
+                .tag(3)
         }
+    }
+
+    /// Debug builds only: `-openTab 2` launches straight into a tab (for simulator screenshots).
+    private static var initialTab: Int {
+        #if DEBUG
+        return UserDefaults.standard.integer(forKey: "openTab")
+        #else
+        return 0
+        #endif
     }
 }

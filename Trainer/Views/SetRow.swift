@@ -15,7 +15,7 @@ struct SetRow: View {
 
     @Environment(\.modelContext) private var modelContext
     @Environment(RestTimer.self) private var restTimer
-    @AppStorage(SettingsKey.unit) private var unit = "kg"
+    @AppStorage(SettingsKey.unit) private var unit = "lb"
 
     @State private var weight: Double = 0
     @State private var reps: Int = 0

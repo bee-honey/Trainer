@@ -13,7 +13,7 @@ struct ExercisePage: View {
 
     @Environment(\.modelContext) private var modelContext
     @State private var previous: [String: SetLog] = [:]
-    @State private var showTip = true
+    @State private var showTip = false
     @State private var showPhoto = false
     @State private var lastTime: TimeInterval?
 

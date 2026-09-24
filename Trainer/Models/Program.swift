@@ -156,6 +156,7 @@ enum SettingsKey {
     static let startDate = "programStartDate"
     static let repeats = "programRepeats"
     static let unit = "weightUnit"
+    static let healthConnected = "healthConnected"
 }
 
 extension Date {

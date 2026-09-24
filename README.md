@@ -15,10 +15,12 @@ An iPhone workout logger for the 5-week **High Intensity Volume Training (H.I.V.
 - **Quick set logging.** Each set and drop set has weight and rep steppers and a big check button. Weights are prefilled from the set above or from your last session. The "Last 50 × 12" hint shows what you did last time.
 - **Rest timer.** Checking a set starts that set's rest countdown, with +15s and Skip buttons. A local notification fires when rest ends, even if the phone is locked or you're in another app.
 - **Exercise timers.** A per-exercise stopwatch starts when you log the first set and stops after the last one. You can also pause, resume, or reset it manually. Only one exercise timer runs at a time.
-- **Reference photos and coach tips.** Every exercise has a start and end photo (tap to view full screen, pinch to zoom) and the program's coaching notes.
+- **Reference photos and coach tips.** Every exercise has a start and end photo (tap to view full screen, pinch to zoom). The program's coaching notes are collapsed until you tap them.
 - **Calendar.** Days are color-coded by muscle group, with markers for completed and partial workouts. Tap a day to see its exercises, per-exercise times, and total workout time, or to open that day's workout.
+- **Body tracking.** Log body weight and tape measurements (waist, chest, arms, hips, thighs) with any mix of fields. Charts show the weight trend over the last 90 days and each measurement over time. Drag across a chart to read exact values. Tap a check-in to edit it, or swipe to delete it.
+- **Apple Health.** Connect from the Body tab to show daily steps (today plus a 7-day chart) and your Apple Health weigh-ins on the weight chart. Access is read-only.
 - **Extra sets.** Add sets beyond the plan; long-press an extra set to delete it.
-- **Settings.** Choose the Day 1 start date or pick which program day today is. Choose whether the 5-week cycle repeats, and whether weights are in kg or lb.
+- **Settings.** Choose the Day 1 start date or pick which program day today is. Choose whether the 5-week cycle repeats, and whether to use lb and inches (the default) or kg and centimetres.
 - Supports light and dark mode. The screen stays awake during a workout.
 
 ## The program
@@ -56,7 +58,7 @@ Edit this file to change the program. Images are looked up by name in `Trainer/R
 
 - Xcode 16 or later
 - iOS 17.0 or later (iPhone only)
-- No third-party dependencies. The app uses SwiftUI, SwiftData, and UserNotifications.
+- No third-party dependencies. The app uses SwiftUI, SwiftData, Swift Charts, HealthKit, and UserNotifications.
 
 ## Getting started
 
@@ -64,7 +66,7 @@ Edit this file to change the program. Images are looked up by name in `Trainer/R
 2. Select the **Trainer** scheme and an iPhone simulator or device.
 3. Build and run (⌘R).
 
-On first launch, the program starts today. Allow notifications so the rest timer can alert you. To run on a physical device, set your own signing team in **Signing & Capabilities**.
+On first launch, the program starts today. Allow notifications so the rest timer can alert you. To run on a physical device, set your own signing team in **Signing & Capabilities**. The HealthKit capability is already set in `Config/Trainer.entitlements`. To change Health access later, open the Settings app and go to **Health → Data Access & Devices → Trainer**.
 
 ## Project structure
 
@@ -75,6 +77,8 @@ Trainer/
 │   ├── Program.swift         # Program JSON types, schedule → program-day mapping, settings keys
 │   ├── SetLog.swift          # SwiftData: one logged set/drop per date
 │   ├── ExerciseTiming.swift  # SwiftData: per-exercise stopwatch + timing rules
+│   ├── BodyEntry.swift       # SwiftData: body weight + measurements, unit conversion
+│   ├── HealthManager.swift   # Read-only HealthKit: weight samples + daily steps
 │   └── RestTimer.swift       # Rest countdown + local notification
 ├── Views/
 │   ├── WorkoutDayView.swift  # Today tab, rest-day view, swipeable workout pager
@@ -82,22 +86,20 @@ Trainer/
 │   ├── SetRow.swift          # Weight/reps steppers + done button
 │   ├── RestTimerBanner.swift # Floating rest countdown
 │   ├── CalendarScreen.swift  # Month grid + selected-day summary
+│   ├── BodyView.swift        # Body tab: Health steps, weight + measurement charts, history
+│   ├── BodyEntrySheet.swift  # Log/edit a body check-in
 │   └── SettingsView.swift    # Start date, repeat, units
 └── Resources/
     ├── program.json          # The 5-week program
     └── ExercisePhotos/       # Start/end reference photos
+Config/
+└── Trainer.entitlements      # HealthKit capability
 Scripts/
 └── make-icon.swift           # Generates the app icon variants
 ```
 
-Workout history is stored on the device with SwiftData. Settings are kept in `UserDefaults`.
+Workout history and body check-ins are stored on the device with SwiftData, in kg and cm. The app converts them to your chosen unit for display. Settings are kept in `UserDefaults`. Apple Health data is read when needed and never copied into the app's database.
 
-## App icon
+## Future plans
 
-`Scripts/make-icon.swift` draws the icon with Core Graphics. It generates the default, dark, and tinted variants:
-
-```sh
-swift Scripts/make-icon.swift default Trainer/Assets.xcassets/AppIcon.appiconset/icon.png
-swift Scripts/make-icon.swift dark    Trainer/Assets.xcassets/AppIcon.appiconset/icon-dark.png
-swift Scripts/make-icon.swift tinted  Trainer/Assets.xcassets/AppIcon.appiconset/icon-tinted.png
-```
+- **3D animated exercise demos.** Replace the static start/end photos with a 3D animated figure performing each exercise. Show it from any angle, loop it at full or slow speed, and highlight the muscles it works, so correct form is easier to understand than it is from two photos.

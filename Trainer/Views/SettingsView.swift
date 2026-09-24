@@ -3,7 +3,7 @@ import SwiftUI
 struct SettingsView: View {
     @AppStorage(SettingsKey.startDate) private var startTimestamp: Double = 0
     @AppStorage(SettingsKey.repeats) private var repeats = true
-    @AppStorage(SettingsKey.unit) private var unit = "kg"
+    @AppStorage(SettingsKey.unit) private var unit = "lb"
 
     private var startDate: Binding<Date> {
         Binding(get: { Date(timeIntervalSince1970: startTimestamp) },
@@ -37,12 +37,16 @@ struct SettingsView: View {
                     Text("High Intensity Volume Training: 5 weeks, 6 training days + 1 rest day per week.")
                 }
 
-                Section("Weights") {
+                Section {
                     Picker("Unit", selection: $unit) {
-                        Text("kg").tag("kg")
                         Text("lb").tag("lb")
+                        Text("kg").tag("kg")
                     }
                     .pickerStyle(.segmented)
+                } header: {
+                    Text("Units")
+                } footer: {
+                    Text("lb uses inches for body measurements. kg uses centimetres.")
                 }
             }
             .navigationTitle("Settings")
