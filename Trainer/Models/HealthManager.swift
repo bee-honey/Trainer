@@ -2,7 +2,7 @@ import Foundation
 import HealthKit
 import Observation
 
-/// Read-only Apple Health access for body weight and step count.
+/// Read-only Apple Health access for body weight, step count, and active energy (Apple Watch).
 @Observable
 final class HealthManager {
     struct WeightSample: Identifiable {
@@ -29,6 +29,8 @@ final class HealthManager {
     private let store = HKHealthStore()
     private let bodyMass = HKQuantityType(.bodyMass)
     private let stepCount = HKQuantityType(.stepCount)
+    private let activeEnergy = HKQuantityType(.activeEnergyBurned)
+    private var readTypes: Set<HKObjectType> { [bodyMass, stepCount, activeEnergy] }
 
     /// Shows the Health permission sheet (only the first time), then loads data.
     /// HealthKit never reveals whether read access was granted, so a denial just
@@ -36,10 +38,40 @@ final class HealthManager {
     func connect() async {
         guard isAvailable else { return }
         do {
-            try await store.requestAuthorization(toShare: [], read: [bodyMass, stepCount])
+            try await store.requestAuthorization(toShare: [], read: readTypes)
             await refresh()
         } catch {
             errorMessage = error.localizedDescription
+        }
+    }
+
+    /// Asks again only for types added since the user last connected (e.g. active energy).
+    func requestNewPermissionsIfNeeded() async {
+        guard isAvailable,
+              (try? await store.statusForAuthorizationRequest(toShare: [], read: readTypes)) == .shouldRequest
+        else { return }
+        try? await store.requestAuthorization(toShare: [], read: readTypes)
+    }
+
+    /// Active kcal recorded by an Apple Watch between two times, or nil if no Watch data.
+    /// iPhone-only samples are ignored: a phone in a pocket barely registers lifting.
+    /// Samples that straddle the window count in proportion to their overlap.
+    func watchActiveEnergy(from start: Date, to end: Date) async -> Double? {
+        guard isAvailable, end > start else { return nil }
+        let descriptor = HKSampleQueryDescriptor(
+            predicates: [.quantitySample(type: activeEnergy,
+                                         predicate: HKQuery.predicateForSamples(withStart: start, end: end))],
+            sortDescriptors: [])
+        guard let samples = try? await descriptor.result(for: store) else { return nil }
+        let watch = samples.filter {
+            $0.device?.model == "Watch" || $0.sourceRevision.productType?.hasPrefix("Watch") == true
+        }
+        guard !watch.isEmpty else { return nil }
+        return watch.reduce(0) { total, s in
+            let span = s.endDate.timeIntervalSince(s.startDate)
+            let overlap = min(end, s.endDate).timeIntervalSince(max(start, s.startDate))
+            let fraction = span > 0 ? max(0, min(1, overlap / span)) : 1
+            return total + s.quantity.doubleValue(for: .kilocalorie()) * fraction
         }
     }
 

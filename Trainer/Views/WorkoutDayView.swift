@@ -106,6 +106,11 @@ struct WorkoutPager: View {
     @Query private var logs: [SetLog]
     @Query private var timings: [ExerciseTiming]
     @Environment(RestTimer.self) private var restTimer
+    @Environment(HealthManager.self) private var health
+    @Environment(\.modelContext) private var modelContext
+    @AppStorage(SettingsKey.healthConnected) private var healthConnected = false
+    @State private var weightKg: Double?
+    @State private var banner: CalorieBanner.Content?
 
     init(day: ProgramDay, date: Date) {
         self.day = day
@@ -127,6 +132,18 @@ struct WorkoutPager: View {
         return logs.filter { $0.done && keys.contains($0.itemKey) }.count
     }
 
+    private var bodyWeight: Double { weightKg ?? CalorieEstimator.fallbackWeightKg }
+
+    private func exercise(for timing: ExerciseTiming) -> ProgramExercise? {
+        day.exercises.first { $0.key == timing.itemKey }
+    }
+
+    private func dayKcal(at now: Date = .now) -> Double {
+        timings.reduce(0) { $0 + CalorieEstimator.kcal(for: $1, exercise: exercise(for: $1), weightKg: bodyWeight, at: now) }
+    }
+
+    private var finishedKeys: Set<String> { Set(timings.filter(\.finished).map(\.itemKey)) }
+
     private func isComplete(_ i: Int) -> Bool {
         let exercise = day.exercises[i]
         let done = Set(logs.filter { $0.itemKey == exercise.key && $0.done }.map(\.rowID))
@@ -144,6 +161,7 @@ struct WorkoutPager: View {
                                  dateKey: date.dayKey,
                                  logs: logs.filter { $0.itemKey == exercise.key },
                                  timing: timings.first { $0.itemKey == exercise.key },
+                                 weightKg: bodyWeight,
                                  onNext: { advance(from: i) })
                         .tag(i)
                 }
@@ -156,6 +174,26 @@ struct WorkoutPager: View {
                 }
             }
             .animation(.spring, value: restTimer.isRunning)
+            .overlay(alignment: .top) {
+                if let banner {
+                    CalorieBanner(content: banner) { self.banner = nil }
+                        .padding(.horizontal)
+                        .padding(.top, 4)
+                        .transition(.move(edge: .top).combined(with: .opacity))
+                }
+            }
+            .animation(.spring, value: banner)
+        }
+        .task {
+            if healthConnected, health.weights.isEmpty { await health.refresh() }
+            weightKg = CalorieService.bodyWeightKg(context: modelContext, health: health)
+            await CalorieService.refine(timings, health: health, useHealth: healthConnected)
+        }
+        .onChange(of: finishedKeys) { old, new in
+            for key in new.subtracting(old) {
+                guard let timing = timings.first(where: { $0.itemKey == key }) else { continue }
+                Task { await exerciseFinished(timing) }
+            }
         }
         .onAppear { UIApplication.shared.isIdleTimerDisabled = true }
         .onDisappear { UIApplication.shared.isIdleTimerDisabled = false }
@@ -167,6 +205,29 @@ struct WorkoutPager: View {
                 }
             }
         }
+    }
+
+    /// Save the exercise's calories, then celebrate it (or the whole workout).
+    private func exerciseFinished(_ timing: ExerciseTiming) async {
+        let exercise = exercise(for: timing)
+        await CalorieService.finalize(timing, exercise: exercise, weightKg: bodyWeight,
+                                      health: health, useHealth: healthConnected)
+        let kcal = timing.kcal ?? 0
+        let note = weightKg == nil ? "Log your weight in Body for a better estimate" : nil
+        if day.exercises.indices.allSatisfy(isComplete) {
+            let duration = ExerciseClock.workoutDuration(timings) ?? timing.elapsed()
+            banner = .init(title: "Workout complete 💪",
+                           detail: "\(duration.clockString) · \(CalorieEstimator.format(dayKcal()))",
+                           note: note, fromWatch: timing.kcalFromWatch)
+        } else {
+            banner = .init(title: "\(exercise?.name ?? timing.exerciseName) done",
+                           detail: "\(timing.elapsed().clockString) · \(CalorieEstimator.format(kcal))",
+                           note: note, fromWatch: timing.kcalFromWatch)
+        }
+        UINotificationFeedbackGenerator().notificationOccurred(.success)
+        let shown = banner
+        try? await Task.sleep(for: .seconds(5))
+        if banner == shown { banner = nil }
     }
 
     private func advance(from i: Int) {
@@ -197,10 +258,17 @@ struct WorkoutPager: View {
     @ViewBuilder private var workoutClock: some View {
         if ExerciseClock.workoutDuration(timings) != nil {
             TimelineView(.periodic(from: .now, by: 1)) { context in
-                Label(ExerciseClock.workoutDuration(timings, at: context.date)?.clockString ?? "",
-                      systemImage: "stopwatch")
-                    .font(.caption.bold().monospacedDigit())
-                    .foregroundStyle(timings.contains(where: \.isRunning) ? Color.accentColor : .secondary)
+                HStack(spacing: 6) {
+                    Label(ExerciseClock.workoutDuration(timings, at: context.date)?.clockString ?? "",
+                          systemImage: "stopwatch")
+                        .foregroundStyle(timings.contains(where: \.isRunning) ? Color.accentColor : .secondary)
+                    Text("·").foregroundStyle(.secondary)
+                    Label("\(Int(dayKcal(at: context.date).rounded()))", systemImage: "flame.fill")
+                        .foregroundStyle(.secondary)
+                        .accessibilityLabel(CalorieEstimator.format(dayKcal(at: context.date)))
+                }
+                .font(.caption.bold().monospacedDigit())
+                .labelStyle(.tightIcon)
             }
             Text("·").font(.caption).foregroundStyle(.secondary)
         }
@@ -238,4 +306,62 @@ struct WorkoutPager: View {
             .onChange(of: page) { _, p in withAnimation { proxy.scrollTo(p, anchor: .center) } }
         }
     }
+}
+
+/// Top banner shown when an exercise or the whole workout is finished.
+struct CalorieBanner: View {
+    struct Content: Equatable {
+        let title: String
+        let detail: String
+        let note: String?
+        let fromWatch: Bool
+    }
+
+    let content: Content
+    let onDismiss: () -> Void
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: "flame.fill")
+                .font(.title2)
+                .foregroundStyle(.white)
+                .frame(width: 40, height: 40)
+                .background(Color.accentColor.gradient, in: .circle)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(content.title).font(.subheadline.bold()).lineLimit(1)
+                HStack(spacing: 4) {
+                    Text(content.detail).monospacedDigit()
+                    if content.fromWatch {
+                        Image(systemName: "applewatch").accessibilityLabel("from Apple Watch")
+                    }
+                }
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                if let note = content.note {
+                    Text(note).font(.caption2).foregroundStyle(.secondary)
+                }
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(12)
+        .background(.regularMaterial, in: .rect(cornerRadius: 18))
+        .shadow(color: .black.opacity(0.15), radius: 10, y: 4)
+        .onTapGesture(perform: onDismiss)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityHint("Dismiss")
+    }
+}
+
+/// Icon + title with less space between them, for compact caption stats.
+struct TightIconLabelStyle: LabelStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        HStack(spacing: 3) {
+            configuration.icon
+            configuration.title
+        }
+    }
+}
+
+extension LabelStyle where Self == TightIconLabelStyle {
+    static var tightIcon: TightIconLabelStyle { .init() }
 }

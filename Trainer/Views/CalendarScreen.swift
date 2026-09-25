@@ -7,6 +7,10 @@ struct CalendarScreen: View {
     @Query(filter: #Predicate<SetLog> { $0.done }) private var doneLogs: [SetLog]
     @Query private var timings: [ExerciseTiming]
     @Query(sort: \Workout.order) private var workouts: [Workout]
+    @Environment(HealthManager.self) private var health
+    @Environment(\.modelContext) private var modelContext
+    @AppStorage(SettingsKey.healthConnected) private var healthConnected = false
+    @State private var weightKg: Double?
 
     @State private var month = Calendar.current.dateInterval(of: .month, for: .now)!.start
     @State private var selected = Calendar.current.startOfDay(for: .now)
@@ -33,6 +37,11 @@ struct CalendarScreen: View {
                 .padding()
             }
             .navigationTitle("Calendar")
+            .task(id: selected) {
+                weightKg = CalorieService.bodyWeightKg(context: modelContext, health: health)
+                await CalorieService.refine(timings.filter { $0.dateKey == selected.dayKey },
+                                            health: health, useHealth: healthConnected)
+            }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) { SettingsButton() }
                 ToolbarItem(placement: .topBarLeading) {
@@ -106,6 +115,10 @@ struct CalendarScreen: View {
             case .workout(let day):
                 let done = doneByDay[selected.dayKey] ?? 0
                 let dayTimings = timings.filter { $0.dateKey == selected.dayKey }
+                let weight = weightKg ?? CalorieEstimator.fallbackWeightKg
+                let kcal: (ExerciseTiming) -> Double = { t in
+                    CalorieEstimator.kcal(for: t, exercise: day.exercises.first { $0.key == t.itemKey }, weightKg: weight)
+                }
                 HStack {
                     Image(systemName: day.category.symbol).font(.title2).foregroundStyle(day.category.color)
                     VStack(alignment: .leading) {
@@ -113,7 +126,8 @@ struct CalendarScreen: View {
                         Text("Week \(day.week) · Day \(day.day) · \(day.exercises.count) exercises · \(done)/\(day.totalRows) sets")
                             .font(.caption).foregroundStyle(.secondary)
                         if let total = ExerciseClock.workoutDuration(dayTimings) {
-                            Label("Workout time \(total.clockString)", systemImage: "stopwatch")
+                            Label("Workout time \(total.clockString) · \(CalorieEstimator.format(dayTimings.map(kcal).reduce(0, +)))",
+                                  systemImage: "stopwatch")
                                 .font(.caption.bold()).foregroundStyle(Color.accentColor)
                         }
                     }
@@ -123,8 +137,12 @@ struct CalendarScreen: View {
                         Text("• \(day.exercises[i].name)")
                         Spacer()
                         if let t = dayTimings.first(where: { $0.itemKey == day.exercises[i].key }) {
-                            Text(t.elapsed().clockString)
+                            Text("\(t.elapsed().clockString) · \(Int(kcal(t).rounded())) kcal")
                                 .monospacedDigit().foregroundStyle(.secondary)
+                            if t.kcalFromWatch {
+                                Image(systemName: "applewatch").foregroundStyle(.secondary)
+                                    .accessibilityLabel("Calories from Apple Watch")
+                            }
                         }
                     }
                     .font(.subheadline)

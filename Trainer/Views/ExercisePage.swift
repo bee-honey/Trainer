@@ -9,6 +9,7 @@ struct ExercisePage: View {
     let dateKey: String
     let logs: [SetLog]
     let timing: ExerciseTiming?
+    let weightKg: Double
     let onNext: () -> Void
 
     @Environment(\.modelContext) private var modelContext
@@ -103,6 +104,17 @@ struct ExercisePage: View {
             }
             VStack(alignment: .leading, spacing: 2) {
                 Text(timerStatus).font(.caption.bold())
+                if let timing {
+                    TimelineView(.periodic(from: .now, by: 5)) { context in
+                        HStack(spacing: 3) {
+                            Image(systemName: timing.kcalFromWatch && !timing.isRunning ? "applewatch" : "flame.fill")
+                            Text(CalorieEstimator.format(
+                                CalorieEstimator.kcal(for: timing, exercise: exercise, weightKg: weightKg, at: context.date)))
+                        }
+                        .font(.caption2.monospacedDigit())
+                        .foregroundStyle(.secondary)
+                    }
+                }
                 if let lastTime {
                     Text("Last time \(lastTime.clockString)").font(.caption2).foregroundStyle(.secondary)
                 }

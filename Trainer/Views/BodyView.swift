@@ -49,7 +49,11 @@ struct BodyView: View {
             .sheet(isPresented: $addingEntry) { BodyEntrySheet(entry: nil) }
             .sheet(item: $editing) { BodyEntrySheet(entry: $0) }
             .refreshable { await health.refresh() }
-            .task { if healthConnected { await health.refresh() } }
+            .task {
+                guard healthConnected else { return }
+                await health.requestNewPermissionsIfNeeded()   // e.g. active energy, added after you connected
+                await health.refresh()
+            }
             .onChange(of: scenePhase) { _, phase in
                 if phase == .active, healthConnected { Task { await health.refresh() } }
             }
@@ -66,7 +70,7 @@ struct BodyView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Label("Apple Health", systemImage: "heart.fill")
                         .font(.headline).foregroundStyle(.pink)
-                    Text("Show your weight and daily steps from Apple Health here. Trainer only reads this data. It never changes it.")
+                    Text("Show your weight and daily steps from Apple Health here, and use Apple Watch active calories for your exercise calorie counts. Trainer only reads this data. It never changes it.")
                         .font(.subheadline).foregroundStyle(.secondary)
                     Button {
                         Task {

@@ -15,6 +15,8 @@ final class ExerciseTiming {
     var firstStartedAt: Date?
     var lastStoppedAt: Date?
     var finished = false
+    var kcal: Double?                 // final estimate, saved when the exercise finishes
+    var kcalFromWatch = false         // true when it came from Apple Watch active energy
 
     init(dateKey: String, itemKey: String, exerciseKey: String, exerciseName: String) {
         self.dateKey = dateKey

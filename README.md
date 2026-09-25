@@ -15,10 +15,11 @@ An iPhone workout logger for the 5-week **High Intensity Volume Training (H.I.V.
 - **Quick set logging.** Each set and drop set has weight and rep steppers and a big check button. Weights are prefilled from the set above or from your last session. The "Last 50 × 12" hint shows what you did last time.
 - **Rest timer.** Checking a set starts that set's rest countdown, with +15s and Skip buttons. A local notification fires when rest ends, even if the phone is locked or you're in another app. If you tick several sets within 10 seconds (catching up on logging), the countdown keeps running instead of restarting each time.
 - **Exercise timers.** A per-exercise stopwatch starts when you log the first set and stops after the last one. You can also pause, resume, or reset it manually. Only one exercise timer runs at a time.
+- **Calories.** Each exercise shows a running calorie estimate while you work, and the header shows the day's total. When you finish an exercise, a banner shows its time and calories. When you finish the whole workout, it shows the workout's total. If you wear an Apple Watch, the app uses the active calories the Watch recorded during the exercise. Otherwise it estimates them with the formula below, using your latest body weight (from the Body tab or Apple Health; 75 kg until you log one). The Calendar shows calories per exercise and per day.
 - **Reference photos and coach tips.** Every exercise has a start and end photo (tap to view full screen, pinch to zoom). The program's coaching notes are collapsed until you tap them.
 - **Calendar.** Days are color-coded by muscle group, with markers for completed and partial workouts. Tap a day to see its exercises, per-exercise times, and total workout time, or to open that day's workout.
 - **Body tracking.** Log body weight and tape measurements (waist, chest, arms, hips, thighs) with any mix of fields. Charts show the weight trend over the last 90 days and each measurement over time. Drag across a chart to read exact values. Tap a check-in to edit it, or swipe to delete it.
-- **Apple Health.** Connect from the Body tab to show daily steps (today plus a 7-day chart) and your Apple Health weigh-ins on the weight chart. Access is read-only.
+- **Apple Health.** Connect from the Body tab to show daily steps (today plus a 7-day chart) and your Apple Health weigh-ins on the weight chart. It also reads Apple Watch active energy for the calorie counts. Access is read-only.
 - **Extra sets.** Add sets beyond the plan; long-press an extra set to delete it.
 - **Customizable program.** In the **Workouts** tab you can rename workouts, and add, remove or reorder their exercises. You can also change each exercise's sets, targets, rest times and drop sets for that workout. Each workout repeats on its scheduled days, so an edit applies to every week. The exercise library lets you edit or create exercises: name, muscle, equipment, photos or screenshots, tags, coach tip, default rest, and default sets. **Reset to default program** restores the original H.I.V.T. workouts and keeps your custom exercises and history.
 - **iCloud sync.** Workouts, exercises (including photos), set logs, timers and body check-ins are stored in your private iCloud database. They come back when you reinstall or sign in on another iPhone. Without an iCloud account, everything stays on the device.
@@ -56,6 +57,22 @@ Each exercise lists its muscle group, equipment, optional tip, reference image, 
 
 Edit this file to change the *default* program that new installs start with. Users customize their own copy in the app. Images are looked up by name in `Trainer/Resources/ExercisePhotos/`.
 
+## How calories are estimated
+
+Without Apple Watch data, the app uses the standard formula from the Compendium of Physical Activities. It subtracts resting energy, so the result is *active* calories, the same measure Apple Health uses:
+
+```
+active kcal = (MET − 1) × 3.5 × body weight (kg) ÷ 200 × minutes
+```
+
+| Exercise | MET |
+| --- | --- |
+| Strength training (default) | 5.0 |
+| Has a drop set or a set to failure | 6.0 |
+| Abdominals | 3.8 |
+
+Minutes come from the exercise timer, so time spent paused doesn't count. When an exercise finishes, its estimate is saved. If Apple Watch active energy exists for that time window, the Watch value replaces the estimate. Watch data can reach the phone a few minutes late, so the app checks again when you reopen the workout or the Calendar day. Only samples from an Apple Watch count. iPhone motion data barely registers weight training. Either way it's an estimate: calories from strength training vary a lot between people.
+
 ## Requirements
 
 - Xcode 16 or later
@@ -83,7 +100,8 @@ Trainer/
 │   ├── SetLog.swift          # SwiftData: one logged set/drop per date
 │   ├── ExerciseTiming.swift  # SwiftData: per-exercise stopwatch + timing rules
 │   ├── BodyEntry.swift       # SwiftData: body weight + measurements, unit conversion
-│   ├── HealthManager.swift   # Read-only HealthKit: weight samples + daily steps
+│   ├── HealthManager.swift   # Read-only HealthKit: weight, daily steps, Apple Watch active energy
+│   ├── Calories.swift        # MET formula, body-weight lookup, Watch-data override
 │   └── RestTimer.swift       # Rest countdown + local notification
 ├── Views/
 │   ├── WorkoutDayView.swift  # Today tab, rest-day view, swipeable workout pager
