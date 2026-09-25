@@ -4,7 +4,7 @@ import SwiftData
 /// A manual body check-in. Stored in kg / cm; shown in the user's unit.
 @Model
 final class BodyEntry {
-    var date: Date
+    var date: Date = Date.now
     var weightKg: Double?
     var waistCm: Double?
     var chestCm: Double?

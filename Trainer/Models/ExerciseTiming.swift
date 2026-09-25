@@ -5,18 +5,21 @@ import SwiftData
 /// pause/resume so a mid-exercise break can be excluded.
 @Model
 final class ExerciseTiming {
-    var dateKey: String
-    var exerciseIndex: Int
-    var exerciseName: String
+    var dateKey: String = ""
+    var itemKey: String = ""
+    var exerciseKey: String = ""
+    var exerciseIndex: Int = 0        // legacy; used only to migrate old timings
+    var exerciseName: String = ""
     var accumulated: Double = 0
     var runningSince: Date?
     var firstStartedAt: Date?
     var lastStoppedAt: Date?
     var finished = false
 
-    init(dateKey: String, exerciseIndex: Int, exerciseName: String) {
+    init(dateKey: String, itemKey: String, exerciseKey: String, exerciseName: String) {
         self.dateKey = dateKey
-        self.exerciseIndex = exerciseIndex
+        self.itemKey = itemKey
+        self.exerciseKey = exerciseKey
         self.exerciseName = exerciseName
     }
 
@@ -44,12 +47,12 @@ final class ExerciseTiming {
 /// Rules: only one exercise runs at a time; checking a set starts its exercise's
 /// timer if you forgot; checking the last planned set stops it.
 enum ExerciseClock {
-    static func start(dateKey: String, index: Int, name: String, in context: ModelContext) {
+    static func start(dateKey: String, exercise: ProgramExercise, in context: ModelContext) {
         let now = Date.now
-        for other in timings(dateKey: dateKey, in: context) where other.exerciseIndex != index {
+        for other in timings(dateKey: dateKey, in: context) where other.itemKey != exercise.key {
             other.pause(at: now)
         }
-        timing(dateKey: dateKey, index: index, name: name, in: context).start(at: now)
+        timing(dateKey: dateKey, exercise: exercise, in: context).start(at: now)
     }
 
     static func pause(_ timing: ExerciseTiming) {
@@ -65,12 +68,12 @@ enum ExerciseClock {
         context.delete(timing)
     }
 
-    static func setCompleted(dateKey: String, index: Int, name: String, exerciseDone: Bool, in context: ModelContext) {
-        let existing = timings(dateKey: dateKey, in: context).first { $0.exerciseIndex == index }
+    static func setCompleted(dateKey: String, exercise: ProgramExercise, exerciseDone: Bool, in context: ModelContext) {
+        let existing = timings(dateKey: dateKey, in: context).first { $0.itemKey == exercise.key }
         if exerciseDone {
             if let existing, existing.firstStartedAt != nil { finish(existing) }
         } else if existing?.isRunning != true {
-            start(dateKey: dateKey, index: index, name: name, in: context)
+            start(dateKey: dateKey, exercise: exercise, in: context)
         }
     }
 
@@ -85,11 +88,12 @@ enum ExerciseClock {
         (try? context.fetch(FetchDescriptor<ExerciseTiming>(predicate: #Predicate { $0.dateKey == dateKey }))) ?? []
     }
 
-    private static func timing(dateKey: String, index: Int, name: String, in context: ModelContext) -> ExerciseTiming {
-        if let existing = timings(dateKey: dateKey, in: context).first(where: { $0.exerciseIndex == index }) {
+    private static func timing(dateKey: String, exercise: ProgramExercise, in context: ModelContext) -> ExerciseTiming {
+        if let existing = timings(dateKey: dateKey, in: context).first(where: { $0.itemKey == exercise.key }) {
             return existing
         }
-        let t = ExerciseTiming(dateKey: dateKey, exerciseIndex: index, exerciseName: name)
+        let t = ExerciseTiming(dateKey: dateKey, itemKey: exercise.key, exerciseKey: exercise.exerciseKey,
+                               exerciseName: exercise.name)
         context.insert(t)
         return t
     }

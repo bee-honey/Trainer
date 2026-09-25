@@ -7,7 +7,22 @@ struct TodayView: View {
 
     var body: some View {
         NavigationStack {
-            WorkoutDayView(date: today)
+            VStack(spacing: 0) {
+                HStack(alignment: .center) {
+                    VStack(alignment: .leading, spacing: 0) {
+                        Text(today.formatted(.dateTime.weekday(.wide).month(.abbreviated).day()).uppercased())
+                            .font(.caption.bold())
+                            .foregroundStyle(.secondary)
+                        Text(AppInfo.name).font(.largeTitle.bold())
+                    }
+                    Spacer()
+                    SettingsButton()
+                }
+                .padding(.horizontal)
+                .padding(.top, 4)
+                WorkoutDayView(date: today)
+            }
+            .toolbar(.hidden, for: .navigationBar)
         }
         .onChange(of: scenePhase) { _, phase in
             if phase == .active, !Calendar.current.isDate(today, inSameDayAs: .now) { today = .now }
@@ -20,14 +35,19 @@ struct WorkoutDayView: View {
     let date: Date
     @AppStorage(SettingsKey.startDate) private var startTimestamp: Double = 0
     @AppStorage(SettingsKey.repeats) private var repeats = true
+    @Query(sort: \Workout.order) private var workouts: [Workout]
 
     private var schedule: Schedule {
-        Schedule(startDate: Date(timeIntervalSince1970: startTimestamp), repeats: repeats)
+        Schedule(startDate: Date(timeIntervalSince1970: startTimestamp), repeats: repeats,
+                 days: Program.days(from: workouts))
     }
 
     var body: some View {
         Group {
             switch schedule.plan(for: date) {
+            case .workout(let day) where day.exercises.isEmpty:
+                ContentUnavailableView("No exercises", systemImage: "dumbbell",
+                                       description: Text("\(day.title) has no exercises. Add some in the Workouts tab."))
             case .workout(let day):
                 WorkoutPager(day: day, date: date)
             case .rest(let n):
@@ -95,16 +115,22 @@ struct WorkoutPager: View {
         _timings = Query(filter: #Predicate<ExerciseTiming> { $0.dateKey == key })
     }
 
-    private var doneCount: Int { logs.filter(\.done).count }
-    private var totalCount: Int { day.totalRows + logs.filter { $0.setIndex >= setsCount($0.exerciseIndex) }.count }
+    /// Planned rows plus extra sets, counting only exercises still in the workout.
+    private var totalCount: Int {
+        day.totalRows + logs.filter { log in
+            day.exercises.first { $0.key == log.itemKey }.map { log.setIndex >= $0.sets.count } ?? false
+        }.count
+    }
 
-    private func setsCount(_ exerciseIndex: Int) -> Int {
-        day.exercises.indices.contains(exerciseIndex) ? day.exercises[exerciseIndex].sets.count : 0
+    private var doneCount: Int {
+        let keys = Set(day.exercises.map(\.key))
+        return logs.filter { $0.done && keys.contains($0.itemKey) }.count
     }
 
     private func isComplete(_ i: Int) -> Bool {
-        let rows = day.exercises[i].rows.count
-        return logs.filter { $0.exerciseIndex == i && $0.done && $0.setIndex < setsCount(i) }.count >= rows
+        let exercise = day.exercises[i]
+        let done = Set(logs.filter { $0.itemKey == exercise.key && $0.done }.map(\.rowID))
+        return exercise.rows.allSatisfy { done.contains($0.id) }
     }
 
     var body: some View {
@@ -113,10 +139,11 @@ struct WorkoutPager: View {
             exerciseStrip
             TabView(selection: $page) {
                 ForEach(day.exercises.indices, id: \.self) { i in
-                    ExercisePage(exercise: day.exercises[i], index: i, count: day.exercises.count,
+                    let exercise = day.exercises[i]
+                    ExercisePage(exercise: exercise, index: i, count: day.exercises.count,
                                  dateKey: date.dayKey,
-                                 logs: logs.filter { $0.exerciseIndex == i },
-                                 timing: timings.first { $0.exerciseIndex == i },
+                                 logs: logs.filter { $0.itemKey == exercise.key },
+                                 timing: timings.first { $0.itemKey == exercise.key },
                                  onNext: { advance(from: i) })
                         .tag(i)
                 }

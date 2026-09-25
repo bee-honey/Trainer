@@ -14,7 +14,6 @@ struct ExercisePage: View {
     @Environment(\.modelContext) private var modelContext
     @State private var previous: [String: SetLog] = [:]
     @State private var showTip = false
-    @State private var showPhoto = false
     @State private var lastTime: TimeInterval?
 
     private var extraRows: [SetRowSpec] {
@@ -31,24 +30,8 @@ struct ExercisePage: View {
             VStack(alignment: .leading, spacing: 14) {
                 titleBlock
                 timerBar
-                if let photo = exercise.photo {
-                    Button { showPhoto = true } label: {
-                        Image(uiImage: photo)
-                            .resizable()
-                            .scaledToFit()
-                            .clipShape(.rect(cornerRadius: 12))
-                            .overlay(alignment: .bottomTrailing) {
-                                Image(systemName: "arrow.up.left.and.arrow.down.right")
-                                    .font(.caption.bold())
-                                    .padding(6)
-                                    .background(.ultraThinMaterial, in: .circle)
-                                    .padding(8)
-                            }
-                    }
-                    .buttonStyle(.plain)
-                    .fullScreenCover(isPresented: $showPhoto) {
-                        PhotoViewer(image: photo, title: exercise.name)
-                    }
+                if !exercise.photos.isEmpty {
+                    PhotoCarousel(photos: exercise.photos, title: exercise.name)
                 }
                 if let tip = exercise.tip {
                     DisclosureGroup(isExpanded: $showTip) {
@@ -64,8 +47,7 @@ struct ExercisePage: View {
                 VStack(spacing: 10) {
                     ForEach(allRows) { spec in
                         SetRow(spec: spec,
-                               exerciseIndex: index,
-                               exerciseName: exercise.name,
+                               exercise: exercise,
                                dateKey: dateKey,
                                log: logs.first { $0.rowID == spec.id },
                                previous: previous[spec.id],
@@ -95,11 +77,19 @@ struct ExercisePage: View {
             Text("EXERCISE \(index + 1) OF \(count)")
                 .font(.caption.bold()).foregroundStyle(.secondary)
             Text(exercise.name).font(.title2.bold())
-            HStack(spacing: 8) {
-                Tag(text: exercise.muscle, systemImage: "figure.strengthtraining.functional")
-                Tag(text: exercise.equipment, systemImage: "dumbbell")
-                Tag(text: "\(exercise.sets.count) sets", systemImage: "number")
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 8) {
+                    if !exercise.muscle.isEmpty {
+                        Tag(text: exercise.muscle, systemImage: "figure.strengthtraining.functional")
+                    }
+                    if !exercise.equipment.isEmpty {
+                        Tag(text: exercise.equipment, systemImage: "dumbbell")
+                    }
+                    Tag(text: "\(exercise.sets.count) sets", systemImage: "number")
+                    ForEach(exercise.tags, id: \.self) { Tag(text: $0, systemImage: "tag") }
+                }
             }
+            .scrollClipDisabled()
         }
     }
 
@@ -125,7 +115,7 @@ struct ExercisePage: View {
                     .buttonStyle(.bordered)
             } else {
                 Button {
-                    ExerciseClock.start(dateKey: dateKey, index: index, name: exercise.name, in: modelContext)
+                    ExerciseClock.start(dateKey: dateKey, exercise: exercise, in: modelContext)
                 } label: {
                     Label(timing == nil ? "Start" : "Resume", systemImage: "play.fill")
                 }
@@ -177,8 +167,7 @@ struct ExercisePage: View {
     private func rowCompleted(_ spec: SetRowSpec) {
         let doneIDs = Set(logs.filter(\.done).map(\.rowID)).union([spec.id])
         let exerciseDone = exercise.rows.allSatisfy { doneIDs.contains($0.id) }
-        ExerciseClock.setCompleted(dateKey: dateKey, index: index, name: exercise.name,
-                                   exerciseDone: exerciseDone, in: modelContext)
+        ExerciseClock.setCompleted(dateKey: dateKey, exercise: exercise, exerciseDone: exerciseDone, in: modelContext)
         if exerciseDone, spec.setIndex < exercise.sets.count {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.6, execute: onNext)
         }
@@ -187,71 +176,28 @@ struct ExercisePage: View {
     private func addSet() {
         let last = logs.max { ($0.setIndex, $0.dropIndex) < ($1.setIndex, $1.dropIndex) }
         let next = max(exercise.sets.count, (logs.map(\.setIndex).max() ?? -1) + 1)
-        modelContext.insert(SetLog(dateKey: dateKey, exerciseIndex: index, exerciseName: exercise.name,
-                                   setIndex: next, dropIndex: 0,
+        modelContext.insert(SetLog(dateKey: dateKey, itemKey: exercise.key, exerciseKey: exercise.exerciseKey,
+                                   exerciseName: exercise.name, setIndex: next, dropIndex: 0,
                                    weight: last?.weight ?? 0, reps: last?.reps ?? 10, done: false))
     }
 
-    /// Most recent completed log for each row of this exercise on an earlier day.
+    /// Most recent completed log for each row of this exercise on an earlier day
+    /// (in any workout that uses the same exercise).
     private func loadPrevious() {
-        let name = exercise.name
+        let exerciseKey = exercise.exerciseKey
         let key = dateKey
         var descriptor = FetchDescriptor<SetLog>(
-            predicate: #Predicate { $0.exerciseName == name && $0.dateKey != key && $0.done },
+            predicate: #Predicate { $0.exerciseKey == exerciseKey && $0.dateKey != key && $0.done },
             sortBy: [SortDescriptor(\.dateKey, order: .reverse)])
         descriptor.fetchLimit = 60
         var timingDescriptor = FetchDescriptor<ExerciseTiming>(
-            predicate: #Predicate { $0.exerciseName == name && $0.dateKey != key && $0.finished },
+            predicate: #Predicate { $0.exerciseKey == exerciseKey && $0.dateKey != key && $0.finished },
             sortBy: [SortDescriptor(\.dateKey, order: .reverse)])
         timingDescriptor.fetchLimit = 1
         lastTime = (try? modelContext.fetch(timingDescriptor))?.first?.elapsed()
         guard let results = try? modelContext.fetch(descriptor), let latest = results.first?.dateKey else { return }
         previous = Dictionary(results.filter { $0.dateKey == latest }.map { ($0.rowID, $0) },
                               uniquingKeysWith: { a, _ in a })
-    }
-}
-
-/// Full-screen reference photo with pinch-to-zoom and double-tap to reset.
-private struct PhotoViewer: View {
-    let image: UIImage
-    let title: String
-    @Environment(\.dismiss) private var dismiss
-    @State private var scale: CGFloat = 1
-    @State private var baseScale: CGFloat = 1
-    @State private var offset: CGSize = .zero
-    @State private var baseOffset: CGSize = .zero
-
-    var body: some View {
-        NavigationStack {
-            Image(uiImage: image)
-                .resizable()
-                .scaledToFit()
-                .scaleEffect(scale)
-                .offset(offset)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(.black)
-                .gesture(
-                    MagnifyGesture()
-                        .onChanged { scale = max(1, baseScale * $0.magnification) }
-                        .onEnded { _ in baseScale = scale }
-                        .simultaneously(with: DragGesture()
-                            .onChanged { v in
-                                guard scale > 1 else { return }
-                                offset = CGSize(width: baseOffset.width + v.translation.width,
-                                                height: baseOffset.height + v.translation.height)
-                            }
-                            .onEnded { _ in baseOffset = offset })
-                )
-                .onTapGesture(count: 2) {
-                    withAnimation { scale = 1; baseScale = 1; offset = .zero; baseOffset = .zero }
-                }
-                .navigationTitle(title)
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbarBackground(.visible, for: .navigationBar)
-                .toolbar {
-                    Button("Done") { dismiss() }
-                }
-        }
     }
 }
 

@@ -41,7 +41,10 @@ struct BodyView: View {
             }
             .navigationTitle("Body")
             .toolbar {
-                Button { addingEntry = true } label: { Label("Log", systemImage: "plus") }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button { addingEntry = true } label: { Label("Log", systemImage: "plus") }
+                }
+                ToolbarItem(placement: .topBarTrailing) { SettingsButton() }
             }
             .sheet(isPresented: $addingEntry) { BodyEntrySheet(entry: nil) }
             .sheet(item: $editing) { BodyEntrySheet(entry: $0) }

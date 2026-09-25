@@ -4,8 +4,7 @@ import SwiftUI
 /// A set: target + rest on top, weight/reps steppers and a big check button below.
 struct SetRow: View {
     let spec: SetRowSpec
-    let exerciseIndex: Int
-    let exerciseName: String
+    let exercise: ProgramExercise
     let dateKey: String
     let log: SetLog?
     let previous: SetLog?
@@ -97,8 +96,8 @@ struct SetRow: View {
             log.reps = reps
             log.updatedAt = .now
         } else {
-            modelContext.insert(SetLog(dateKey: dateKey, exerciseIndex: exerciseIndex, exerciseName: exerciseName,
-                                       setIndex: spec.setIndex, dropIndex: spec.dropIndex,
+            modelContext.insert(SetLog(dateKey: dateKey, itemKey: exercise.key, exerciseKey: exercise.exerciseKey,
+                                       exerciseName: exercise.name, setIndex: spec.setIndex, dropIndex: spec.dropIndex,
                                        weight: weight, reps: reps, done: true))
         }
         guard log?.done ?? true else {

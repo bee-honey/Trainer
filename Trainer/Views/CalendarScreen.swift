@@ -6,13 +6,15 @@ struct CalendarScreen: View {
     @AppStorage(SettingsKey.repeats) private var repeats = true
     @Query(filter: #Predicate<SetLog> { $0.done }) private var doneLogs: [SetLog]
     @Query private var timings: [ExerciseTiming]
+    @Query(sort: \Workout.order) private var workouts: [Workout]
 
     @State private var month = Calendar.current.dateInterval(of: .month, for: .now)!.start
     @State private var selected = Calendar.current.startOfDay(for: .now)
 
     private let calendar = Calendar.current
     private var schedule: Schedule {
-        Schedule(startDate: Date(timeIntervalSince1970: startTimestamp), repeats: repeats)
+        Schedule(startDate: Date(timeIntervalSince1970: startTimestamp), repeats: repeats,
+                 days: Program.days(from: workouts))
     }
 
     private var doneByDay: [String: Int] {
@@ -32,11 +34,14 @@ struct CalendarScreen: View {
             }
             .navigationTitle("Calendar")
             .toolbar {
+                ToolbarItem(placement: .topBarTrailing) { SettingsButton() }
+                ToolbarItem(placement: .topBarLeading) {
                 Button("Today") {
                     withAnimation {
                         month = calendar.dateInterval(of: .month, for: .now)!.start
                         selected = calendar.startOfDay(for: .now)
                     }
+                }
                 }
             }
         }
@@ -117,7 +122,7 @@ struct CalendarScreen: View {
                     HStack {
                         Text("• \(day.exercises[i].name)")
                         Spacer()
-                        if let t = dayTimings.first(where: { $0.exerciseIndex == i }) {
+                        if let t = dayTimings.first(where: { $0.itemKey == day.exercises[i].key }) {
                             Text(t.elapsed().clockString)
                                 .monospacedDigit().foregroundStyle(.secondary)
                         }

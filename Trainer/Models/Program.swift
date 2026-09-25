@@ -1,31 +1,45 @@
 import Foundation
 import SwiftUI
 
-// MARK: - Program data (bundled from the H.I.V.T. PDF)
+import SwiftData
+
+// MARK: - Set schemes (stored as JSON on exercises / workout items)
 
 struct ProgramDrop: Codable, Hashable {
-    let target: String
-    let rest: Int?
+    var target: String
+    var rest: Int?
 }
 
 struct ProgramSet: Codable, Hashable {
-    let kind: String      // "Standard" or "Drop"
-    let target: String    // e.g. "10 to 12 reps", "To failure"
-    let rest: Int?        // seconds of rest after this set (nil = go straight into the drop)
-    let drops: [ProgramDrop]
+    var kind: String      // "Standard" or "Drop"
+    var target: String    // e.g. "10 to 12 reps", "To failure"
+    var rest: Int?        // seconds of rest after this set (nil = go straight into the drop)
+    var drops: [ProgramDrop]
+
+    static func standard(_ target: String = "10 reps", rest: Int) -> ProgramSet {
+        ProgramSet(kind: "Standard", target: target, rest: rest, drops: [])
+    }
 }
 
-struct ProgramExercise: Codable, Hashable {
+// MARK: - Read-only snapshot the workout screens render (built from the SwiftData program)
+
+enum PhotoRef: Hashable {
+    case bundled(String)                 // default photo shipped in the app
+    case stored(PersistentIdentifier)    // user-added photo (ExercisePhoto)
+}
+
+struct ProgramExercise: Hashable, Identifiable {
+    let key: String           // WorkoutItem key: stable across edits, used by logs
+    let exerciseKey: String   // Exercise key: shared by every workout that uses it
     let name: String
     let muscle: String
     let equipment: String
+    let tags: [String]
     let tip: String?
     let sets: [ProgramSet]
-    let image: String?    // bundled start/end reference photo, cropped from the PDF
+    let photos: [PhotoRef]
 
-    var photo: UIImage? {
-        image.flatMap { Bundle.main.path(forResource: $0, ofType: "jpg") }.flatMap(UIImage.init(contentsOfFile:))
-    }
+    var id: String { key }
 
     /// Every loggable row: each set, followed by its drops.
     var rows: [SetRowSpec] {
@@ -57,7 +71,7 @@ struct SetRowSpec: Hashable, Identifiable {
     var isTimed: Bool { target.localizedCaseInsensitiveContains("sec") }
 }
 
-struct ProgramDay: Codable, Hashable {
+struct ProgramDay: Hashable {
     let day: Int
     let week: Int
     let title: String
@@ -68,7 +82,7 @@ struct ProgramDay: Codable, Hashable {
 }
 
 enum WorkoutCategory: String {
-    case shoulders = "Shoulders", back = "Back", chest = "Chest", legs = "Legs", rest = "Rest"
+    case shoulders = "Shoulders", back = "Back", chest = "Chest", legs = "Legs", other = "Workout", rest = "Rest"
 
     init(title: String) {
         let t = title.lowercased()
@@ -76,7 +90,7 @@ enum WorkoutCategory: String {
         else if t.contains("back") { self = .back }
         else if t.contains("chest") { self = .chest }
         else if t.contains("leg") { self = .legs }
-        else { self = .rest }
+        else { self = .other }   // custom workout titles; rest days are set explicitly
     }
 
     var color: Color {
@@ -85,6 +99,7 @@ enum WorkoutCategory: String {
         case .back: .blue
         case .chest: .pink
         case .legs: .green
+        case .other: .purple
         case .rest: .gray
         }
     }
@@ -95,6 +110,7 @@ enum WorkoutCategory: String {
         case .back: "figure.rower"
         case .chest: "figure.strengthtraining.traditional"
         case .legs: "figure.step.training"
+        case .other: "dumbbell.fill"
         case .rest: "bed.double.fill"
         }
     }
@@ -103,13 +119,17 @@ enum WorkoutCategory: String {
 enum Program {
     static let cycleLength = 35
 
-    static let days: [Int: ProgramDay] = {
-        guard let url = Bundle.main.url(forResource: "program", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let list = try? JSONDecoder().decode([ProgramDay].self, from: data)
-        else { return [:] }
-        return Dictionary(uniqueKeysWithValues: list.map { ($0.day, $0) })
-    }()
+    /// Program day number → workout, from the user's (editable, iCloud-synced) workouts.
+    static func days(from workouts: [Workout]) -> [Int: ProgramDay] {
+        var out: [Int: ProgramDay] = [:]
+        for workout in workouts {
+            let exercises = workout.sortedItems.compactMap(ProgramExercise.init(item:))
+            for d in workout.dayNumbers {
+                out[d] = ProgramDay(day: d, week: (d - 1) / 7 + 1, title: workout.title, exercises: exercises)
+            }
+        }
+        return out
+    }
 }
 
 // MARK: - Mapping calendar dates to program days
@@ -123,6 +143,7 @@ enum DayPlan {
 struct Schedule {
     var startDate: Date
     var repeats: Bool
+    var days: [Int: ProgramDay] = [:]
 
     private var calendar: Calendar { .current }
 
@@ -136,7 +157,7 @@ struct Schedule {
 
     func plan(for date: Date) -> DayPlan {
         guard let n = programDayNumber(for: date) else { return .notScheduled }
-        if let day = Program.days[n] { return .workout(day) }
+        if let day = days[n] { return .workout(day) }
         return .rest(dayNumber: n)
     }
 
@@ -151,6 +172,11 @@ struct Schedule {
 }
 
 // MARK: - Settings keys
+
+enum AppInfo {
+    /// Set in one place: the target's Display Name (INFOPLIST_KEY_CFBundleDisplayName).
+    static let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? "Trainer"
+}
 
 enum SettingsKey {
     static let startDate = "programStartDate"

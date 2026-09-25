@@ -13,19 +13,21 @@ An iPhone workout logger for the 5-week **High Intensity Volume Training (H.I.V.
 
 - **Today's workout.** The app maps the current date to a program day: a workout, a rest day, or a date outside the program. Swipe between exercises, or jump to one from the numbered strip. The header tracks sets done and total workout time.
 - **Quick set logging.** Each set and drop set has weight and rep steppers and a big check button. Weights are prefilled from the set above or from your last session. The "Last 50 × 12" hint shows what you did last time.
-- **Rest timer.** Checking a set starts that set's rest countdown, with +15s and Skip buttons. A local notification fires when rest ends, even if the phone is locked or you're in another app.
+- **Rest timer.** Checking a set starts that set's rest countdown, with +15s and Skip buttons. A local notification fires when rest ends, even if the phone is locked or you're in another app. If you tick several sets within 10 seconds (catching up on logging), the countdown keeps running instead of restarting each time.
 - **Exercise timers.** A per-exercise stopwatch starts when you log the first set and stops after the last one. You can also pause, resume, or reset it manually. Only one exercise timer runs at a time.
 - **Reference photos and coach tips.** Every exercise has a start and end photo (tap to view full screen, pinch to zoom). The program's coaching notes are collapsed until you tap them.
 - **Calendar.** Days are color-coded by muscle group, with markers for completed and partial workouts. Tap a day to see its exercises, per-exercise times, and total workout time, or to open that day's workout.
 - **Body tracking.** Log body weight and tape measurements (waist, chest, arms, hips, thighs) with any mix of fields. Charts show the weight trend over the last 90 days and each measurement over time. Drag across a chart to read exact values. Tap a check-in to edit it, or swipe to delete it.
 - **Apple Health.** Connect from the Body tab to show daily steps (today plus a 7-day chart) and your Apple Health weigh-ins on the weight chart. Access is read-only.
 - **Extra sets.** Add sets beyond the plan; long-press an extra set to delete it.
-- **Settings.** Choose the Day 1 start date or pick which program day today is. Choose whether the 5-week cycle repeats, and whether to use lb and inches (the default) or kg and centimetres.
-- Supports light and dark mode. The screen stays awake during a workout.
+- **Customizable program.** In the **Workouts** tab you can rename workouts, and add, remove or reorder their exercises. You can also change each exercise's sets, targets, rest times and drop sets for that workout. Each workout repeats on its scheduled days, so an edit applies to every week. The exercise library lets you edit or create exercises: name, muscle, equipment, photos or screenshots, tags, coach tip, default rest, and default sets. **Reset to default program** restores the original H.I.V.T. workouts and keeps your custom exercises and history.
+- **iCloud sync.** Workouts, exercises (including photos), set logs, timers and body check-ins are stored in your private iCloud database. They come back when you reinstall or sign in on another iPhone. Without an iCloud account, everything stays on the device.
+- **Settings** (gear icon, top right). Choose the Day 1 start date or pick which program day today is. Choose whether the 5-week cycle repeats, and whether to use lb and inches (the default) or kg and centimetres.
+- The app's name is shown at the top of the Today screen. It supports light and dark mode, and the screen stays awake during a workout.
 
 ## The program
 
-The program comes from the H.I.V.T. PDF and is bundled as [`Trainer/Resources/program.json`](Trainer/Resources/program.json). It runs 35 days (5 weeks), with 6 training days and 1 rest day each week. The split is:
+The default program comes from the H.I.V.T. PDF and is bundled as [`Trainer/Resources/program.json`](Trainer/Resources/program.json). On first launch it's copied into the app's database, where it can be edited and is synced through iCloud. It runs 35 days (5 weeks), with 6 training days and 1 rest day each week. The split is:
 
 | Day | Workout |
 | --- | --- |
@@ -52,13 +54,14 @@ Each exercise lists its muscle group, equipment, optional tip, reference image, 
 }
 ```
 
-Edit this file to change the program. Images are looked up by name in `Trainer/Resources/ExercisePhotos/`.
+Edit this file to change the *default* program that new installs start with. Users customize their own copy in the app. Images are looked up by name in `Trainer/Resources/ExercisePhotos/`.
 
 ## Requirements
 
 - Xcode 16 or later
 - iOS 17.0 or later (iPhone only)
-- No third-party dependencies. The app uses SwiftUI, SwiftData, Swift Charts, HealthKit, and UserNotifications.
+- No third-party dependencies. The app uses SwiftUI, SwiftData with CloudKit, Swift Charts, HealthKit, PhotosUI, and UserNotifications.
+- iCloud sync needs a paid Apple Developer Program membership. Personal (free) teams can't sign an app that has the iCloud capability. To build with a free team, remove the iCloud and push entries from `Config/Trainer.entitlements`. The app then falls back to on-device storage.
 
 ## Getting started
 
@@ -66,15 +69,17 @@ Edit this file to change the program. Images are looked up by name in `Trainer/R
 2. Select the **Trainer** scheme and an iPhone simulator or device.
 3. Build and run (⌘R).
 
-On first launch, the program starts today. Allow notifications so the rest timer can alert you. To run on a physical device, set your own signing team in **Signing & Capabilities**. The HealthKit capability is already set in `Config/Trainer.entitlements`. To change Health access later, open the Settings app and go to **Health → Data Access & Devices → Trainer**.
+On first launch, the program starts today. Allow notifications so the rest timer can alert you. To run on a physical device, set your own signing team in **Signing & Capabilities**. The HealthKit, iCloud (CloudKit container `iCloud.com.naveenkeerthy.Trainer`), and push capabilities are set in `Config/Trainer.entitlements`. Before the first App Store release, deploy the CloudKit schema to production in the [CloudKit Console](https://icloud.developer.apple.com/). To change Health access later, open the Settings app and go to **Health → Data Access & Devices → Trainer**.
 
 ## Project structure
 
 ```
 Trainer/
-├── TrainerApp.swift          # App entry, notification delegate, tab bar
+├── TrainerApp.swift          # App entry, iCloud-backed model container, tab bar
 ├── Models/
-│   ├── Program.swift         # Program JSON types, schedule → program-day mapping, settings keys
+│   ├── Program.swift         # Set schemes, workout snapshot types, schedule → program-day mapping
+│   ├── ProgramModels.swift   # SwiftData: Exercise, ExercisePhoto, Workout, WorkoutItem
+│   ├── ProgramSeeder.swift   # Default program, iCloud de-duplication, log migration, reset
 │   ├── SetLog.swift          # SwiftData: one logged set/drop per date
 │   ├── ExerciseTiming.swift  # SwiftData: per-exercise stopwatch + timing rules
 │   ├── BodyEntry.swift       # SwiftData: body weight + measurements, unit conversion
@@ -82,23 +87,30 @@ Trainer/
 │   └── RestTimer.swift       # Rest countdown + local notification
 ├── Views/
 │   ├── WorkoutDayView.swift  # Today tab, rest-day view, swipeable workout pager
-│   ├── ExercisePage.swift    # One exercise: timer, photo, tip, set rows
+│   ├── ExercisePage.swift    # One exercise: timer, photos, tags, tip, set rows
+│   ├── PhotoCarousel.swift   # Swipeable exercise photos + full-screen viewer
 │   ├── SetRow.swift          # Weight/reps steppers + done button
 │   ├── RestTimerBanner.swift # Floating rest countdown
 │   ├── CalendarScreen.swift  # Month grid + selected-day summary
 │   ├── BodyView.swift        # Body tab: Health steps, weight + measurement charts, history
 │   ├── BodyEntrySheet.swift  # Log/edit a body check-in
-│   └── SettingsView.swift    # Start date, repeat, units
+│   ├── SettingsView.swift    # Settings sheet (gear button): start date, repeat, units, iCloud
+│   └── Program/              # Workouts tab
+│       ├── ProgramView.swift         # Workout list + exercise library
+│       ├── WorkoutEditorView.swift   # Edit a workout, its per-workout sets, exercise picker
+│       ├── ExerciseEditorView.swift  # Create/edit an exercise: photos, tags, tip, defaults
+│       └── SetsEditor.swift          # Targets, rest and drop sets
 └── Resources/
     ├── program.json          # The 5-week program
     └── ExercisePhotos/       # Start/end reference photos
 Config/
-└── Trainer.entitlements      # HealthKit capability
+├── Trainer.entitlements      # HealthKit, iCloud (CloudKit), push
+└── Info.plist                # Background remote notifications for iCloud sync
 Scripts/
 └── make-icon.swift           # Generates the app icon variants
 ```
 
-Workout history and body check-ins are stored on the device with SwiftData, in kg and cm. The app converts them to your chosen unit for display. Settings are kept in `UserDefaults`. Apple Health data is read when needed and never copied into the app's database.
+The program, workout history and body check-ins are stored with SwiftData and mirrored to the user's private iCloud database. Body values are stored in kg and cm. The app converts them to your chosen unit for display. Settings are kept in `UserDefaults`. Apple Health data is read when needed and never copied into the app's database.
 
 ## Future plans
 
