@@ -70,7 +70,7 @@ struct BodyView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Label("Apple Health", systemImage: "heart.fill")
                         .font(.headline).foregroundStyle(.pink)
-                    Text("Show your weight and daily steps from Apple Health here, and use Apple Watch active calories for your exercise calorie counts. Trainer only reads this data. It never changes it.")
+                    Text("Show your weight and daily steps from Apple Health here, and use Apple Watch active calories for your exercise calorie counts. Coach5 only reads this data. It never changes it.")
                         .font(.subheadline).foregroundStyle(.secondary)
                     Button {
                         Task {
@@ -331,7 +331,7 @@ private struct StepsCard: View {
                 }
                 .frame(height: 150)
             } else {
-                Text("No steps found. If you didn't allow access, go to the Settings app → Health → Data Access & Devices → Trainer.")
+                Text("No steps found. If you didn't allow access, go to the Settings app → Health → Data Access & Devices → Coach5.")
                     .font(.caption).foregroundStyle(.secondary)
             }
         }
