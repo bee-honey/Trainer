@@ -1,4 +1,4 @@
-# Coach5
+# Gym Coach 5
 
 An iPhone workout logger for the 5-week **High Intensity Volume Training (H.I.V.T.)** program. Open the app at the gym and it shows today's workout. Swipe through the exercises and tap a set to log it. The rest timer starts on its own.
 
@@ -88,7 +88,7 @@ Minutes come from the exercise timer, so time spent paused doesn't count. When a
 2. Select the **Trainer** scheme and an iPhone simulator or device.
 3. Build and run (⌘R).
 
-On first launch, the program starts today. Allow notifications so the rest timer can alert you. To run on a physical device, set your own signing team in **Signing & Capabilities**. The HealthKit, iCloud (CloudKit container `iCloud.com.naveenkeerthy.Trainer`), and push capabilities are set in `Config/Trainer.entitlements`. Before the first App Store release, deploy the CloudKit schema to production in the [CloudKit Console](https://icloud.developer.apple.com/). To change Health access later, open the Settings app and go to **Health → Data Access & Devices → Coach5**.
+On first launch, the program starts today. Allow notifications so the rest timer can alert you. To run on a physical device, set your own signing team in **Signing & Capabilities**. The HealthKit, iCloud (CloudKit container `iCloud.com.naveenkeerthy.Trainer`), and push capabilities are set in `Config/Trainer.entitlements`. Before the first App Store release, deploy the CloudKit schema to production in the [CloudKit Console](https://icloud.developer.apple.com/). To change Health access later, open the Settings app and go to **Health → Data Access & Devices → Gym Coach 5**.
 
 ## Project structure
 

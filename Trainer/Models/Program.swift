@@ -175,7 +175,7 @@ struct Schedule {
 
 enum AppInfo {
     /// Set in one place: the target's Display Name (INFOPLIST_KEY_CFBundleDisplayName).
-    static let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? "Coach5"
+    static let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? "Gym Coach 5"
 }
 
 enum SettingsKey {
