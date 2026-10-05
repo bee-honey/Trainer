@@ -16,7 +16,7 @@ An iPhone workout logger for the 5-week **High Intensity Volume Training (H.I.V.
 - **Rest timer.** Checking a set starts that set's rest countdown, with +15s and Skip buttons. A local notification fires when rest ends, even if the phone is locked or you're in another app. If you tick several sets within 10 seconds (catching up on logging), the countdown keeps running instead of restarting each time.
 - **Exercise timers.** A per-exercise stopwatch starts when you log the first set and stops after the last one. You can also pause, resume, or reset it manually. Only one exercise timer runs at a time.
 - **Calories.** Each exercise shows a running calorie estimate while you work, and the header shows the day's total. When you finish an exercise, a banner shows its time and calories. When you finish the whole workout, it shows the workout's total. If you wear an Apple Watch, the app uses the active calories the Watch recorded during the exercise. Otherwise it estimates them with the formula below, using your latest body weight (from the Body tab or Apple Health; 75 kg until you log one). The Calendar shows calories per exercise and per day.
-- **Reference photos and coach tips.** Every exercise has a start and end photo (tap to view full screen, pinch to zoom). The program's coaching notes are collapsed until you tap them.
+- **Reference drawings and coach tips.** 29 of the 55 default exercises come with an openly licensed start/end line drawing (tap to view full screen, pinch to zoom). You can add your own photos or screenshots to any exercise. The program's coaching notes are collapsed until you tap them.
 - **Calendar.** Days are color-coded by muscle group, with markers for completed and partial workouts. Tap a day to see its exercises, per-exercise times, and total workout time, or to open that day's workout.
 - **Body tracking.** Log body weight and tape measurements (waist, chest, arms, hips, thighs) with any mix of fields. Charts show the weight trend over the last 90 days and each measurement over time. Drag across a chart to read exact values. Tap a check-in to edit it, or swipe to delete it.
 - **Apple Health.** Connect from the Body tab to show daily steps (today plus a 7-day chart) and your Apple Health weigh-ins on the weight chart. It also reads Apple Watch active energy for the calorie counts. Access is read-only.
@@ -56,6 +56,8 @@ Each exercise lists its muscle group, equipment, optional tip, reference image, 
 ```
 
 Edit this file to change the *default* program that new installs start with. Users customize their own copy in the app. Images are looked up by name in `Trainer/Resources/ExercisePhotos/`.
+
+The bundled drawings are by Everkinetic, obtained through the open-source wger project, and licensed CC BY-SA 3.0. See [CREDITS.md](CREDITS.md) for the source of each drawing. The app credits them under **Settings → Acknowledgements**. The photos from the original PDF are copyrighted and not included. Only add images you have the rights to.
 
 ## How calories are estimated
 
@@ -120,7 +122,7 @@ Trainer/
 │       └── SetsEditor.swift          # Targets, rest and drop sets
 └── Resources/
     ├── program.json          # The 5-week program
-    └── ExercisePhotos/       # Start/end reference photos
+    └── ExercisePhotos/       # Start/end reference drawings (CC BY-SA, see CREDITS.md)
 Config/
 ├── Trainer.entitlements      # HealthKit, iCloud (CloudKit), push
 └── Info.plist                # Background remote notifications for iCloud sync

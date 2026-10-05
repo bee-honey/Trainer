@@ -79,6 +79,11 @@ struct SettingsView: View {
                          ? "Your workouts, exercises, logs and body check-ins are saved to your iCloud account and restored on any iPhone signed in to it."
                          : "Sign in to iCloud in the Settings app to back up your workouts and history. Until then, data stays on this iPhone.")
                 }
+
+                Section("About") {
+                    NavigationLink("Acknowledgements") { AcknowledgementsView() }
+                    LabeledContent("Version", value: Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")
+                }
             }
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
@@ -92,5 +97,28 @@ struct SettingsView: View {
         let week = (n - 1) / 7 + 1
         let name = days[n].map { WorkoutCategory(title: $0.title).rawValue } ?? "Rest"
         return "Day \(n) · W\(week) · \(name)"
+    }
+}
+
+/// Credits required by the Creative Commons licence of the exercise drawings.
+struct AcknowledgementsView: View {
+    var body: some View {
+        List {
+            Section {
+                Text("Exercise drawings are by Everkinetic (created by Greg Priday), with one by wger.de, obtained through the open-source wger project. They're used under the Creative Commons Attribution-ShareAlike 3.0 licence. The start and end positions have been placed side by side.")
+                Link("Everkinetic", destination: URL(string: "https://everkinetic.com")!)
+                Link("wger — open-source fitness", destination: URL(string: "https://wger.de")!)
+                Link("CC BY-SA 3.0 licence", destination: URL(string: "https://creativecommons.org/licenses/by-sa/3.0/")!)
+            } header: {
+                Text("Exercise illustrations")
+            } footer: {
+                Text("Some exercises show a drawing of a closely related movement. Photos you add yourself stay private to your devices and iCloud.")
+            }
+            Section("Calorie estimates") {
+                Text("Estimates use MET values from the Compendium of Physical Activities (Ainsworth et al.). With an Apple Watch, the app uses the active energy the Watch recorded.")
+            }
+        }
+        .navigationTitle("Acknowledgements")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

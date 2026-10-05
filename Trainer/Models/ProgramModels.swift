@@ -57,11 +57,9 @@ final class Exercise {
 
     /// First photo, small, for list rows.
     var thumbnail: UIImage? {
-        let source: UIImage? = if let name = bundledImage {
-            Bundle.main.path(forResource: name, ofType: "jpg").flatMap(UIImage.init(contentsOfFile:))
-        } else {
-            sortedPhotos.first?.data.flatMap(UIImage.init(data:))
-        }
+        let bundled = bundledImage.flatMap { Bundle.main.path(forResource: $0, ofType: "jpg") }
+            .flatMap(UIImage.init(contentsOfFile:))
+        let source = bundled ?? sortedPhotos.first?.data.flatMap(UIImage.init(data:))
         guard let source else { return nil }
         let width: CGFloat = 160
         return source.preparingThumbnail(of: CGSize(width: width, height: width * source.size.height / max(source.size.width, 1)))
