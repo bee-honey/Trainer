@@ -202,7 +202,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-triceps-pushdown-rope-attachment"
    },
    {
     "name": "EZ-Bar Skullcrusher",
@@ -279,7 +279,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-triceps-extension"
    },
    {
     "name": "Decline Crunch",
@@ -312,7 +312,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-decline-crunch"
    }
   ]
  },
@@ -370,7 +370,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-lat-pullover-machine"
    },
    {
     "name": "V-Bar Pulldown",
@@ -404,7 +404,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-v-bar-pulldown"
    },
    {
     "name": "Weighted Pull Ups",
@@ -640,7 +640,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-incline-dumbbell-flyes"
    },
    {
     "name": "Leverage Incline Chest Press",
@@ -762,8 +762,7 @@
       "rest": 120,
       "drops": []
      }
-    ],
-    "image": "ex-cable-concentration-curl"
+    ]
    },
    {
     "name": "Machine Preacher Curl",
@@ -931,7 +930,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-low-pulley-deltoid-raise"
    },
    {
     "name": "Seated Bent-Over Rear Delt Raise",
@@ -957,7 +956,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-bent-over-rear-delt-raise"
    },
    {
     "name": "Reverse Machine Flyes",
@@ -1008,7 +1007,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-reverse-machine-flyes"
    },
    {
     "name": "Decline EZ Bar Triceps Extension",
@@ -1080,7 +1079,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-seated-triceps-press"
    },
    {
     "name": "Kneeling Cable Triceps Extension",
@@ -1131,7 +1130,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-kneeling-cable-triceps-extension"
    },
    {
     "name": "Knee/Hip Raise on Parallel Bars",
@@ -1164,7 +1163,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-knee-hip-raise-on-parallel-bars"
    }
   ]
  },
@@ -1269,7 +1268,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-decline-dumbbell-flyes"
    },
    {
     "name": "Machine Bench Press",
@@ -1320,7 +1319,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-bench-press"
    },
    {
     "name": "EZ-Bar Curl",
@@ -1476,7 +1475,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-side-bridge"
    }
   ]
  },
@@ -1534,7 +1533,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-leg-press"
    },
    {
     "name": "Smith Machine Squat",
@@ -1555,7 +1554,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-smith-machine-squat"
    },
    {
     "name": "Leg Extensions",
@@ -1581,7 +1580,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-leg-extensions"
    },
    {
     "name": "Lying Machine Squat",
@@ -1710,7 +1709,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-calf-raises"
    },
    {
     "name": "Seated Calf Raise",
@@ -1736,7 +1735,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-calf-raise"
    },
    {
     "name": "Cable Crunch",
@@ -1769,7 +1768,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-cable-crunch"
    }
   ]
  },
@@ -1976,7 +1975,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-triceps-pushdown-rope-attachment"
    },
    {
     "name": "EZ-Bar Skullcrusher",
@@ -2053,7 +2052,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-triceps-extension"
    },
    {
     "name": "Decline Crunch",
@@ -2086,7 +2085,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-decline-crunch"
    }
   ]
  },
@@ -2178,7 +2177,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-one-arm-dumbbell-row"
    },
    {
     "name": "Seated Cable Rows",
@@ -2230,7 +2229,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-bent-arm-dumbbell-pullover"
    },
    {
     "name": "Wide-Grip Lat Pulldown",
@@ -2281,7 +2280,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-wide-grip-lat-pulldown"
    },
    {
     "name": "Oblique Crunches",
@@ -2419,7 +2418,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-incline-dumbbell-flyes"
    },
    {
     "name": "Leverage Incline Chest Press",
@@ -2541,8 +2540,7 @@
       "rest": 120,
       "drops": []
      }
-    ],
-    "image": "ex-cable-concentration-curl"
+    ]
    },
    {
     "name": "Machine Preacher Curl",
@@ -2710,7 +2708,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-low-pulley-deltoid-raise"
    },
    {
     "name": "Seated Bent-Over Rear Delt Raise",
@@ -2736,7 +2734,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-bent-over-rear-delt-raise"
    },
    {
     "name": "Reverse Machine Flyes",
@@ -2787,7 +2785,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-reverse-machine-flyes"
    },
    {
     "name": "Decline EZ Bar Triceps Extension",
@@ -2859,7 +2857,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-seated-triceps-press"
    },
    {
     "name": "Kneeling Cable Triceps Extension",
@@ -2910,7 +2908,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-kneeling-cable-triceps-extension"
    },
    {
     "name": "Knee/Hip Raise on Parallel Bars",
@@ -2943,7 +2941,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-knee-hip-raise-on-parallel-bars"
    }
   ]
  },
@@ -3048,7 +3046,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-decline-dumbbell-flyes"
    },
    {
     "name": "Machine Bench Press",
@@ -3099,7 +3097,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-bench-press"
    },
    {
     "name": "EZ-Bar Curl",
@@ -3255,7 +3253,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-side-bridge"
    }
   ]
  },
@@ -3482,8 +3480,7 @@
        }
       ]
      }
-    ],
-    "image": null
+    ]
    },
    {
     "name": "Calf Press on the Leg Press Machine",
@@ -3509,7 +3506,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-calf-press-on-the-leg-press-machine"
    },
    {
     "name": "Cable Crunch",
@@ -3542,7 +3539,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-cable-crunch"
    }
   ]
  },
@@ -3749,7 +3746,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-triceps-pushdown-rope-attachment"
    },
    {
     "name": "EZ-Bar Skullcrusher",
@@ -3826,7 +3823,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-triceps-extension"
    },
    {
     "name": "Decline Crunch",
@@ -3859,7 +3856,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-decline-crunch"
    }
   ]
  },
@@ -3917,7 +3914,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-lat-pullover-machine"
    },
    {
     "name": "V-Bar Pulldown",
@@ -3951,7 +3948,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-v-bar-pulldown"
    },
    {
     "name": "Weighted Pull Ups",
@@ -4187,7 +4184,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-incline-dumbbell-flyes"
    },
    {
     "name": "Leverage Incline Chest Press",
@@ -4309,8 +4306,7 @@
       "rest": 120,
       "drops": []
      }
-    ],
-    "image": "ex-cable-concentration-curl"
+    ]
    },
    {
     "name": "Machine Preacher Curl",
@@ -4478,7 +4474,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-low-pulley-deltoid-raise"
    },
    {
     "name": "Seated Bent-Over Rear Delt Raise",
@@ -4504,7 +4500,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-bent-over-rear-delt-raise"
    },
    {
     "name": "Reverse Machine Flyes",
@@ -4555,7 +4551,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-reverse-machine-flyes"
    },
    {
     "name": "Decline EZ Bar Triceps Extension",
@@ -4627,7 +4623,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-seated-triceps-press"
    },
    {
     "name": "Kneeling Cable Triceps Extension",
@@ -4678,7 +4674,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-kneeling-cable-triceps-extension"
    },
    {
     "name": "Knee/Hip Raise on Parallel Bars",
@@ -4711,7 +4707,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-knee-hip-raise-on-parallel-bars"
    }
   ]
  },
@@ -4816,7 +4812,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-decline-dumbbell-flyes"
    },
    {
     "name": "Machine Bench Press",
@@ -4867,7 +4863,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-bench-press"
    },
    {
     "name": "EZ-Bar Curl",
@@ -5023,7 +5019,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-side-bridge"
    }
   ]
  },
@@ -5081,7 +5077,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-leg-press"
    },
    {
     "name": "Smith Machine Squat",
@@ -5102,7 +5098,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-smith-machine-squat"
    },
    {
     "name": "Leg Extensions",
@@ -5128,7 +5124,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-leg-extensions"
    },
    {
     "name": "Lying Machine Squat",
@@ -5257,7 +5253,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-calf-raises"
    },
    {
     "name": "Seated Calf Raise",
@@ -5283,7 +5279,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-calf-raise"
    },
    {
     "name": "Cable Crunch",
@@ -5316,7 +5312,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-cable-crunch"
    }
   ]
  },
@@ -5523,7 +5519,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-triceps-pushdown-rope-attachment"
    },
    {
     "name": "EZ-Bar Skullcrusher",
@@ -5600,7 +5596,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-triceps-extension"
    },
    {
     "name": "Decline Crunch",
@@ -5633,7 +5629,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-decline-crunch"
    }
   ]
  },
@@ -5691,7 +5687,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-lat-pullover-machine"
    },
    {
     "name": "V-Bar Pulldown",
@@ -5725,7 +5721,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-v-bar-pulldown"
    },
    {
     "name": "Weighted Pull Ups",
@@ -5961,7 +5957,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-incline-dumbbell-flyes"
    },
    {
     "name": "Leverage Incline Chest Press",
@@ -6083,8 +6079,7 @@
       "rest": 120,
       "drops": []
      }
-    ],
-    "image": "ex-cable-concentration-curl"
+    ]
    },
    {
     "name": "Machine Preacher Curl",
@@ -6252,7 +6247,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-low-pulley-deltoid-raise"
    },
    {
     "name": "Seated Bent-Over Rear Delt Raise",
@@ -6278,7 +6273,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-bent-over-rear-delt-raise"
    },
    {
     "name": "Reverse Machine Flyes",
@@ -6329,7 +6324,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-reverse-machine-flyes"
    },
    {
     "name": "Decline EZ Bar Triceps Extension",
@@ -6401,7 +6396,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-seated-triceps-press"
    },
    {
     "name": "Kneeling Cable Triceps Extension",
@@ -6452,7 +6447,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-kneeling-cable-triceps-extension"
    },
    {
     "name": "Knee/Hip Raise on Parallel Bars",
@@ -6485,7 +6480,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-knee-hip-raise-on-parallel-bars"
    }
   ]
  },
@@ -6590,7 +6585,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-decline-dumbbell-flyes"
    },
    {
     "name": "Machine Bench Press",
@@ -6641,7 +6636,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-bench-press"
    },
    {
     "name": "EZ-Bar Curl",
@@ -6797,7 +6792,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-side-bridge"
    }
   ]
  },
@@ -6855,7 +6850,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-leg-press"
    },
    {
     "name": "Smith Machine Squat",
@@ -6876,7 +6871,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-smith-machine-squat"
    },
    {
     "name": "Leg Extensions",
@@ -6902,7 +6897,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-leg-extensions"
    },
    {
     "name": "Lying Machine Squat",
@@ -7031,7 +7026,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-calf-raises"
    },
    {
     "name": "Seated Calf Raise",
@@ -7057,7 +7052,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-calf-raise"
    },
    {
     "name": "Cable Crunch",
@@ -7090,7 +7085,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-cable-crunch"
    }
   ]
  },
@@ -7297,7 +7292,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-triceps-pushdown-rope-attachment"
    },
    {
     "name": "EZ-Bar Skullcrusher",
@@ -7374,7 +7369,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-triceps-extension"
    },
    {
     "name": "Decline Crunch",
@@ -7407,7 +7402,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-decline-crunch"
    }
   ]
  },
@@ -7465,7 +7460,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-lat-pullover-machine"
    },
    {
     "name": "V-Bar Pulldown",
@@ -7499,7 +7494,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-v-bar-pulldown"
    },
    {
     "name": "Weighted Pull Ups",
@@ -7735,7 +7730,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-incline-dumbbell-flyes"
    },
    {
     "name": "Leverage Incline Chest Press",
@@ -7857,8 +7852,7 @@
       "rest": 120,
       "drops": []
      }
-    ],
-    "image": "ex-cable-concentration-curl"
+    ]
    },
    {
     "name": "Machine Preacher Curl",
@@ -8026,7 +8020,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-low-pulley-deltoid-raise"
    },
    {
     "name": "Seated Bent-Over Rear Delt Raise",
@@ -8052,7 +8046,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-bent-over-rear-delt-raise"
    },
    {
     "name": "Reverse Machine Flyes",
@@ -8103,7 +8097,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-reverse-machine-flyes"
    },
    {
     "name": "Decline EZ Bar Triceps Extension",
@@ -8175,7 +8169,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-seated-triceps-press"
    },
    {
     "name": "Kneeling Cable Triceps Extension",
@@ -8226,7 +8220,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-kneeling-cable-triceps-extension"
    },
    {
     "name": "Knee/Hip Raise on Parallel Bars",
@@ -8259,7 +8253,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-knee-hip-raise-on-parallel-bars"
    }
   ]
  },
@@ -8364,7 +8358,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-decline-dumbbell-flyes"
    },
    {
     "name": "Machine Bench Press",
@@ -8415,7 +8409,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-machine-bench-press"
    },
    {
     "name": "EZ-Bar Curl",
@@ -8571,7 +8565,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-side-bridge"
    }
   ]
  },
@@ -8629,7 +8623,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-leg-press"
    },
    {
     "name": "Smith Machine Squat",
@@ -8650,7 +8644,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-smith-machine-squat"
    },
    {
     "name": "Leg Extensions",
@@ -8676,7 +8670,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-leg-extensions"
    },
    {
     "name": "Lying Machine Squat",
@@ -8805,7 +8799,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-standing-calf-raises"
    },
    {
     "name": "Seated Calf Raise",
@@ -8831,7 +8825,7 @@
       ]
      }
     ],
-    "image": null
+    "image": "ex-seated-calf-raise"
    },
    {
     "name": "Cable Crunch",
@@ -8864,7 +8858,7 @@
       "drops": []
      }
     ],
-    "image": null
+    "image": "ex-cable-crunch"
    }
   ]
  }
